@@ -1,0 +1,1792 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\MS896A.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MS896A.ico"
+IDR_MS896ATYPE          ICON                    "res\\MS896ADoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MS896A...",            ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MapSorter"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MS899 Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_HARDWARE DIALOGEX 0, 0, 233, 209
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "Hardware Selection Option"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Enable Controller",IDC_HW_SELECTION,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,7,73,14,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "OK",IDOK,91,175,50,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,0,167,229,2
+    CONTROL         "Disable BH Module",IDC_DISABLE_BH_MODULE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,31,77,10
+    CONTROL         "Disable BT Module",IDC_DISABLE_BT_MODULE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,47,76,10
+    CONTROL         "Disable BL Module",IDC_DISABLE_BL_MODULE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,63,75,10
+    CONTROL         "Disable WL Module",IDC_DISABLE_WL_MODULE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,80,78,10
+    CONTROL         "Disable WT Module",IDC_DISABLE_WT_MODULE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,97,79,10
+    CONTROL         "Disable WL Module (with Expander)",IDC_DISABLE_WL_MODULE_WITH_EXP,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,114,135,10
+    CONTROL         "Disable NL Module",IDC_DISABLE_NL_MODULE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,24,130,76,10
+END
+
+IDD_SELECT_OPTIONS DIALOGEX 0, 0, 201, 151
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "Options Selection"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,42,130,48,14
+    PUSHBUTTON      "Cancel",IDCANCEL,112,130,48,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,2,120,197,2
+END
+
+IDD_STRING_ENTRY DIALOGEX 0, 0, 187, 49
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_CLIENTEDGE
+CAPTION "Please enter password:"
+FONT 10, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_STRING,7,7,173,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "OK",IDOK,33,28,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,101,28,50,14
+END
+
+IDD_MS896A_FORM DIALOGEX 0, 0, 308, 220
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LISTBOX         IDC_MSG_LIST,7,43,294,146,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "MapSorter",IDC_MODULE_NAME,7,19,88,18
+    PUSHBUTTON      "Group ID",IDC_GROUP_ID,113,19,88,18
+    PUSHBUTTON      "Start",IDC_START,7,195,60,18
+    LTEXT           "Module Name",IDC_STATIC,7,7,45,8
+    LTEXT           "Group ID",IDC_STATIC,113,7,30,8
+    PUSHBUTTON      "Select Hardware",IDC_SELECT_HARDWARE,213,19,88,18
+    CONTROL         "Auto-Start",IDC_AUTO_START,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,81,195,47,18
+    PUSHBUTTON      "Options",IDC_OPTIONS,241,195,60,18
+    CONTROL         "Log Message",IDC_LOG_MSG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,135,195,57,18
+    CONTROL         "HMI",IDC_EXEC_HMI,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,202,195,28,18
+END
+
+IDD_LOADING DIALOGEX 0, 0, 275, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Please Wait ...",IDC_STATIC,115,19,48,8
+    LTEXT           "(Don't click any key)",IDC_STATIC,105,36,65,8
+END
+
+IDD_WAFERSTAT DIALOGEX 20, 100, 421, 87
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP | WS_BORDER
+EXSTYLE WS_EX_TOPMOST
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Close",IDCANCEL,372,52,41,19
+    PUSHBUTTON      "Export",IDC_EXPORT,372,14,41,21
+    CONTROL         "",IDC_WAFSTATLISTCTRL,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,6,359,74
+END
+
+IDD_PROMPT_BOX DIALOGEX 0, 0, 273, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOPMOST
+CAPTION "Prompt Box"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_INPUT_BOX,31,30,132,16,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,183,31,50,14
+    LTEXT           "Please input value",IDC_INPUT_TITLE,32,17,115,8
+END
+
+IDD_MC_HISTORY DIALOGEX 0, 0, 374, 219
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP | WS_BORDER
+EXSTYLE WS_EX_TOPMOST
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Close",IDCANCEL,205,189,59,22
+    CONTROL         "",IDC_MC_LIST,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | LVS_NOSORTHEADER | WS_BORDER | WS_TABSTOP,7,7,360,173
+    DEFPUSHBUTTON   "ClearAll",IDEXPORT,105,189,53,22
+    CONTROL         "",IDC_RICHEDIT,"RichEdit20A",ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_BORDER | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP,7,7,360,173
+END
+
+IDD_DIALOG_PR_CROSSHAIR DIALOGEX 0, 0, 243, 135
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,186,7,50,14
+    PUSHBUTTON      "UP",IDC_BUTTONUP,83,27,50,14
+    PUSHBUTTON      "LT",IDC_BUTTONLT,19,56,50,14
+    PUSHBUTTON      "RT",IDC_BUTTONRT,157,54,50,14
+    PUSHBUTTON      "DOWN",IDC_BUTTONDN,85,85,50,14
+    EDITTEXT        IDC_EDITSTEPSIZE,89,54,40,14,ES_AUTOHSCROLL
+END
+
+IDD_PRSelect DIALOGEX 0, 0, 186, 93
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,7,20,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,64,20,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,126,20,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,125,42,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,125,63,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",IDC_OK,68,72,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,9,6,0
+ PRODUCTVERSION 3,9,6,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "ASM Assembly Automation Ltd."
+            VALUE "FileDescription", "Mapping Die Sorter"
+            VALUE "FileVersion", "3.96"
+            VALUE "InternalName", "MapSorter.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2007 ASM Assembly Automation Ltd."
+            VALUE "OriginalFilename", "MapSorter.exe"
+            VALUE "ProductName", "MS899 Mapping Sorter"
+            VALUE "ProductVersion", "3.96"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_HARDWARE, DIALOG
+    BEGIN
+        VERTGUIDE, 24
+        BOTTOMMARGIN, 197
+    END
+
+    IDD_SELECT_OPTIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    IDD_STRING_ENTRY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 42
+    END
+
+    IDD_MS896A_FORM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+
+    IDD_LOADING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 268
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_WAFERSTAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 413
+        VERTGUIDE, 366
+        VERTGUIDE, 372
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 80
+        HORZGUIDE, 14
+        HORZGUIDE, 71
+    END
+
+    IDD_PROMPT_BOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_MC_HISTORY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 367
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+        HORZGUIDE, 180
+        HORZGUIDE, 189
+    END
+
+    IDD_DIALOG_PR_CROSSHAIR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 236
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_PRSelect, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\MS896A.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// HTML
+//
+
+IDR_HTML_PRSELECT       HTML                    "PRSelect.htm"
+IDR_HTML_PRSELECT1      HTML                    "res\\html_prs.htm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "MapSorter\n\nMapSorter\n\n\nMapSorter.Document\nMapSorter.Document"
+    HMB_BH_ILC_AUTO_LEARN_INIT_FAIL "Auto learn init fail"
+    HMB_MS_AMI_FILE         "Load Ami file"
+    HMB_MS_LOAD_AMI_FILE_FAIL "Load Ami file fail"
+    HMB_BH_TESTER_CORRELATE "Tester correlation"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "MapSorter"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BT_CLRALLSETTINGS   "BT0001"
+    IDS_BT_CLRSINGLESETTINGS "BT0002"
+    IDS_BT_NOOFBLKSCHK      "BT0003"
+    IDS_BT_BLKTOSETUPCHK    "BT0004"
+    IDS_BT_DENYBLKSETTINGSEDIT1 "BT0005"
+    IDS_BT_ULCHECK1         "BT0006"
+    IDS_BT_URCHECK1         "BT0007"
+    IDS_BT_LLCHECK1         "BT0008"
+    IDS_BT_LRCHECK1         "BT0009"
+    IDS_BT_ULLLCHECK1       "BT0010"
+    IDS_BT_LRURCHECK1       "BT0011"
+    IDS_BT_URULCHECK1       "BT0012"
+    IDS_BT_LLLRCHECK1       "BT0013"
+    IDS_BT_OVERLAPPINGCHK1  "BT0014"
+    IDS_BT_LRCHECK2         "BT0015"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BT_BINFULL          "BT001"
+    IDS_WPR_DIENOTLEARNT    "WPR0001"
+    IDS_WPR_DIENOTCALIBRATED "WPR0002"
+    IDS_WPR_NODIEONCENTER   "WPR0003"
+    IDS_WPR_NODIEONLEFTSIDE "WPR0004"
+    IDS_WPR_NODIEONRIGHTSIDE "WPR0005"
+    IDS_WPR_NODIEONUPSIDE   "WPR0006"
+    IDS_WPR_NODIEONDOWNSIDE "WPR0007"
+    IDS_WPR_DIEPITCHLEARNT  "WPR0008"
+    IDS_WPR_ALLPRIDCLR      "WPR0009"
+    IDS_WPR_DIETOODARK      "WPR0010"
+    IDS_WPR_DIETOOBRIGHT    "WPR0011"
+    IDS_WPR_DIEROTATIONINVARIANT "WPR0012"
+    IDS_WPR_LEARNDIEOK      "WPR0013"
+    IDS_WPR_GETDIEREPLY1ERROR "WPR0014"
+    IDS_WPR_GETDIEREPLY2ERROR "WPR0015"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BT_SETUPCOMPLETE    "BT0016"
+    IDS_BT_ULLRCHECK1       "BT0017"
+    IDS_BT_NOTENOUGHROOM    "BT0018"
+    IDS_BT_EDITBLK1DATAONLY "BT0019"
+    IDS_BT_ENTERBINBLKPAGECHK "BT0020"
+    IDS_BT_DENYBLKSETTINGSEDIT2 "BT0021"
+    IDS_BT_ULCHECK2         "BT0022"
+    IDS_BT_LRCHECK3         "BT0023"
+    IDS_BT_ULCHECK3         "BT0024"
+    IDS_BT_LEFTBOUNDARYCHK  "BT0025"
+    IDS_BT_RIGHTBOUNDARYCHK "BT0026"
+    IDS_BT_UPPERBOUNDARYCHK "BT0027"
+    IDS_BT_LOWERBOUNDARYCHK "BT0028"
+    IDS_BT_LRCHECK4         "BT0029"
+    IDS_BT_CHKIFBINCNTISCLR "BT0030"
+    IDS_BT_BLKDIMENSIONCHK1 "BT0031"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BT_BLKDIMENSIONCHK2 "BT0032"
+    IDS_BT_CLRALLBINCNTANDGENRPT "BT0033"
+    IDS_BT_CLRALLBINCNT     "BT0034"
+    IDS_BT_GRADEINFOSAVED   "BT0035"
+    IDS_BT_GRADEFULL        "BT0036"
+    IDS_BT_NOBINBLKASSIGN   "BT0037"
+    IDS_BT_HIT_SEPERATION_GRADE "BT0038"
+    IDS_BT_BIN_NOT_CLEARED  "BT0039"
+    IDS_BT_GRADES_NOT_ASSIGN "BT0040"
+    IDS_BT_ULCHECK4         "BT0041"
+    IDS_BT_ULCHECK5         "BT0042"
+    IDS_BT_INVALID_DIE_PITCH "BT0043"
+    IDS_BT_SOURCE_PHYBLK_NOT_SETUP "BT0044"
+    IDS_BT_LRCHECK5         "BT0045"
+    IDS_BT_LRCHECK6         "BT0046"
+    IDS_BT_URCHECK2         "BT0047"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WT_INDEXINGINFOSAVED "WT0001"
+    IDS_WT_MAPCOLSAVED      "WT0002"
+    IDS_WT_FAILTOCOMPENSATEWTT "WT0003"
+    IDS_WT_INVALID_POS      "WT0004"
+    IDS_WT_MAP_NOT_ALIGN    "WT0005"
+    IDS_WT_FAILEXCEEDPITCH  "WT0006"
+    IDS_WT_FAILEXCEEDCROSSPITCH "WT0007"
+    IDS_WT_REFDIE_FAIL      "WT0008"
+    IDS_WT_MAP_EXT_NOT_MATCH "WT0009"
+    IDS_WT_INVALID_LIMIT_TYPE "WT0010"
+    IDS_WT_NO_SCN_DIE_POS   "WT0011"
+    IDS_WT_NO_SCN_DIE_GRADE "WT0012"
+    IDS_WT_NO_SCN_FILE      "WT0013"
+    IDS_WT_INVALID_MAP_PATH "WT0014"
+    IDS_WT_LOTFILE_NOT_FOUND "WT0015"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BPR_DIENOTLEARNT    "BPR0001"
+    IDS_BPR_NODIEONCENTER   "BPR0002"
+    IDS_BPR_NODIEONLEFTSIDE "BPR0003"
+    IDS_BPR_NODIEONRIGHTSIDE "BPR0004"
+    IDS_BPR_NODIEONUPSIDE   "BPR0005"
+    IDS_BPR_NODIEONDOWNSIDE "BPR0006"
+    IDS_BPR_CALIBRATEFACTORERROR "BPR0007"
+    IDS_BPR_DIECALIBRATIONDONE "BPR0008"
+    IDS_BPR_DIETOODARK      "BPR0009"
+    IDS_BPR_DIETOOBRIGHT    "BPR0010"
+    IDS_BPR_DIEROTATIONINVARIANT "BPR0011"
+    IDS_BPR_LEARNDIEOK      "BPR0012"
+    IDS_BPR_GETDIEREPLY1ERROR "BPR0013"
+    IDS_BPR_GETDIEREPLY2ERROR "BPR0014"
+    IDS_BPR_DIEANGLETOOLARGE "BPR0015"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WT_END              "WT001"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WPR_DIEANGLETOOLARGE "WPR0016"
+    IDS_WPR_NODIEFOUND      "WPR0017"
+    IDS_WPR_INVALIDDIESIZE  "WPR0018"
+    IDS_WPR_CALFACTORERROR  "WPR0019"
+    IDS_WPR_DIECALDONE      "WPR0020"
+    IDS_WPR_MAX_SKIPCOUNT   "WPR0021"
+    IDS_WPR_MAX_NODIE_SKIPCOUNT "WPR0022"
+    IDS_WPR_MAX_PR_SKIPCOUNT "WPR0023"
+    IDS_WPR_MAX_BADCUT_SKIPCOUNT "WPR0024"
+    IDS_WPR_PRSEARCHERROR   "WPR0025"
+    IDS_WPR_ALIGNMENT_FAILED "WPR0026"
+    IDS_WPR_CORNER_SRH_FAILED "WPR0027"
+    IDS_WPR_ADAPTIVE_LRN_DIE "WPR0028"
+    IDS_WPR_LRN_DIE_FAILED  "WPR0029"
+    IDS_WPR_SRN_DIE_FAILED  "WPR0030"
+    IDS_WPR_LRN_PITCH_INVALID_X "WPR0031"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_FRMAE_DETECTED_IN_BL_ERR_HANDLE "BL0056"
+    IDS_BL_EX_UNLOAD_BUFFER_FRAME_FAIL "BL0060"
+    IDS_BL_EX_LOAD_EMPTY_FRAME_FAIL "BL0061"
+    IDS_BL_EX_CHG_FULL_FRAME "BL0062"
+    IDS_BL_EX_PRE_CLEAR_BIN_FAIL "BL0063"
+    IDS_BL_EX_PRELOAD_EMPTY_FRAME_FAIL "BL0064"
+    IDS_BL_EX_UNLOAD_FULL_BUFFER_FRAME_FAIL "BL0065"
+    IDS_WPR_LRN_PITCH_INVALID_Y "WPR0032"
+    IDS_BL_PUSH_BACK_FRAME_TO_SLOT "BL0066"
+    IDS_BL_EXARM_NOT_SAFE   "BL0055"
+    IDS_BL_Y_FLIMIT_HIT     "BL0070: BL Y F-limit sensor hit"
+    IDS_BL_Y_BLIMIT_HIT     "BL0071: BL Y B-limit sensor hit"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MS_CANNOTCREATESRAMFILE "MS0001"
+    IDS_MS_CANNOTCREATELOGFILE "MS0002"
+    IDS_MS_CANNOTCREATETIMINGFILE "MS0003"
+    IDS_MS_GLOBALDATASAVED  "MS0004"
+    IDS_MS_CANNOTINITSRAM   "MS0005"
+    IDS_MS_EXPANDER_OPEN    "MS0006"
+    IDS_MS_MOTION_ERROR     "MS0007"
+    IDS_MS_MOTION_NOT_HOME  "MS0008"
+    IDS_MS_MES_TIME_OUT     "MS0009"
+    IDS_MS_MES_NG_RX        "MS0010"
+    IDS_MS_NU_MOTION_ERROR  "MS0011"
+    IDS_MS_PASSWORD_NOT_CORRECT "MS0012"
+    IDS_MS_ACCESS_RIGHT     "MS0013"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MS_WARNING_INLINE_BIN_LOADER_OUTPUT_SLOT_FULL "SYS0001"
+    IDS_MS_WARNING_INLINE_BIN_LOADER_INPUT_SLOT_EMPTY "SYS0002"
+    IDS_MS_WARNING_INLINE_WAFER_LOADER_OUTPUT_SLOT_FULL "SYS0003"
+    IDS_MS_WARNING_INLINE_WAFER_LOADER_INPUT_SLOT_EMPTY "SYS0004"
+    IDS_MS_WARNING_UPLOADING_RECIPE "SYS0005"
+    IDS_MS_WARNING_DOWNLOADING_RECIPE "SYS0006"
+    IDS_MS_WARNING_CLEAN_COLLET "SYS0007"
+    IDS_MS_WARNING_LOG_PR_FAILURE_CASE "SYS0008"
+    IDS_MS_WARNING_SECS_GEM "SYS0009"
+    IDS_MS_WARNING_GENERAL  "SYS0010"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BH_MISSINGDIEDETECTED "BH0001"
+    IDS_BH_REPLACE_COLLET   "BH0002"
+    IDS_BH_REPLACE_EJECTOR  "BH0003"
+    IDS_BH_COLLET_JAM       "BH0004"
+    IDS_BH_KOFFSET_HIT_LIMIT "BH0005"
+    IDS_BH_SPC_XY_LIMIT     "BH0006"
+    IDS_BH_SPC_MAX_ANGLE    "BH0007"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BH_SPC_AVG_ANGLE    "BH0008"
+    IDS_BH_SPC_DEFECT       "BH0009"
+    IDS_BH_SPC_FAIL         "BH0010"
+    IDS_BH_LOW_PRESSURE     "BH0011"
+    IDS_BH_COVER_OPEN       "BH0012"
+    IDS_BH_CLEAN_COLLET     "BH0013"
+    IDS_BH_RESET_CLEAN_COUNT "BH0014"
+    IDS_BH_FRONT_COVER_UNLOCK "BH0015"
+    IDS_BH_MODULE_NO_POWER  "BH0016"
+    IDS_BH_SIDE_COVER_UNLOCK "BH0017"
+    IDS_BH_AUTO_LRN_FAILED_1 "BH0018"
+    IDS_BH_AUTO_LRN_FAILED_2 "BH0019"
+    IDS_BH_SPC_EMPTY        "BH0020"
+    IDS_BH_MISSINGDIEDETECTED_BHZ1 "BH0021"
+    IDS_BH_MISSINGDIEDETECTED_BHZ2 "BH0022"
+    IDS_BH_COLLET_JAM_BHZ1  "BH0023"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BH_COLLET_JAM_BHZ2  "BH0024"
+    IDS_BH_OPEN_DAC_CALIBRATION_FAILS "BH0025"
+    IDS_BH_CLEAN_COLLET_BH1 "BH0026"
+    IDS_BH_CLEAN_COLLET_BH2 "BH0027"
+    IDS_BH_RESET_CLEAN_COUNT_BH1 "BH0028"
+    IDS_BH_RESET_CLEAN_COUNT_BH2 "BH0029"
+    IDS_BH_DAC_DIST_CALIB_FAILS "BH0030"
+    IDS_BH_REPLACE_COLLET2  "BH0031"
+    IDS_BH_FRONT_FAN_OFF    "BH0032"
+    IDS_BH_REAR_FAN_OFF     "BH0033"
+    IDS_BH_SIDE_COVER_OPEN  "BH0034"
+    IDS_BH_BT1_LEVEL_AT_UP  "BH0035"
+    IDS_BH_BT2_LEVEL_AT_UP  "BH0036"
+    IDS_BH_THERMAL_CHECK    "BH0037"
+    IDS_BH_SPC_REL_XY_LIMIT "BH0038"
+    IDS_BH_REPLACE_PROBEPIN "BH0039"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BH_CLEAN_PROBE_PIN  "BH0040"
+    IDS_BH_RESET_CLEAN_PROBE_PIN_COUNT "BH0041"
+    IDS_BH_HIT_PROBE_FAIL_LIMIT "BH0042"
+    IDS_BH_CHECK_PROBE_POS  "BH0043"
+    IDS_BH_TESTER_TIME_OUT  "BH0044"
+    IDS_BH_MD_ACCUM_BHZ1    "BH0051"
+    IDS_BH_MD_ACCUM_BHZ2    "BH0052"
+    IDS_BH_SPC_CP_XY_LIMIT  "BH0053"
+    IDS_BH2_SPC_XY_LIMIT    "BH0054"
+    IDS_BH2_SPC_MAX_ANGLE   "BH0055"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BH2_SPC_EMPTY       "BH0056"
+    IDS_BH_SPC_MAX_ACC_ANGLE "BH0057"
+    IDS_BH2_SPC_MAX_ACC_ANGLE "BH0058"
+    IDS_BH2_LOW_PRESSURE    "BH0059"
+    IDS_EJ_LOW_PRESSURE     "BH0060"
+    IDS_BH_INPUT_IONIZER_ERR "BH0061"
+    IDS_BH_OUTPUT_IONIZER_ERR "BH0062"
+    IDS_BH1_LOW_PRESSURE    "BH0063"
+    IDS_BH_LOW_VACUUM_FLOW  "BH0064"
+    IDS_BH_ARM_ILC_NOT_LEANRT "BH0065"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WL_GRIPPER_JAM      "WL0001"
+    IDS_WL_MAG_FULL         "WL0002"
+    IDS_WL_EXP_OPEN_FAIL    "WL0003"
+    IDS_WL_EXP_CLOSE_FAIL   "WL0004"
+    IDS_WL_EXP_UNLOCK_FAIL  "WL0005"
+    IDS_WL_NO_MAG_INSIDE    "WL0006"
+    IDS_WL_NO_FRAME_DETECT  "WL0007"
+    IDS_WL_FRAME_UNLOAD_FAIL "WL0008"
+    IDS_WL_FRAME_LOAD_FAIL  "WL0009"
+    IDS_WL_FRAME_EXISTONTRACK "WL0010"
+    IDS_WL_ALIGNWAF_FAIL    "WL0011"
+    IDS_WL_MAP_NO_NAME      "WL0012"
+    IDS_WL_MAP_NOT_VALID    "WL0013"
+    IDS_WL_NO_WAFER_IN_LOT  "WL0014"
+    IDS_WL_EXP_ALREADY_OPEN "WL0015"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WL_SCOPE_DOWN       "WL0016"
+    IDS_WL_SRCH_HOMEDIE_FAIL "WL0017"
+    IDS_WL_NODIE_IN_WAFER   "WL0018"
+    IDS_WL_CORRECT_ANGLE_FAIL "WL0019"
+    IDS_WL_FRAME_EXISTONGRIPPER "WL0020"
+    IDS_WL_EXP_ALREADY_CLOSE "WL0021"
+    IDS_WL_MOTOR_OFF        "WL0022"
+    IDS_WL_NO_BARCODE       "WL0023"
+    IDS_WL_GRIPPER_NOT_SAFE "WL0024"
+    IDS_WL_RETRY_GET_FRAME  "WL0025"
+    IDS_WL_LOTFILE_NOT_FOUND "WL0026"
+    IDS_WL_EXP_LOCK_FAIL    "WL0027"
+    IDS_WL_2DBARCODE_FAIL   "WL0028"
+    IDS_WL_EXP_NO_FRMAE_EXIST "WL0029"
+    IDS_WL_BCFILE_NO_BARCODE "WL0030"
+    IDS_WL_BC_FILE_MAG_FULL "WL0031"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_MODULE_ERROR     "BL0001"
+    IDS_BL_NOTHIS_PHYBLK    "BL0002"
+    IDS_BL_OPMODE_WRONG     "BL0003"
+    IDS_BL_GRIPPER_MISSINGSTEP "BL0004"
+    IDS_BL_MA_NOEPYFRAME_IN_EPYMAG "BL0005"
+    IDS_BL_MA_NOFREESLOT_IN_FULLMAG "BL0006"
+    IDS_BL_MB_NOFRAME_IN_EMPTYSLOT "BL0007"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_MB_NOFREESLOT_IN_FULLMAG "BL0008"
+    IDS_BL_MC_NOEPYMAG      "BL0009"
+    IDS_BL_MD_NOEPYFRAME_IN_MAG "BL0010"
+    IDS_BL_MD_NOFREESLOT_IN_MAG "BL0011"
+    IDS_BL_MD_UNKNOWN_ERROR1 "BL0012"
+    IDS_BL_MD_UNKNOWN_ERROR2 "BL0013"
+    IDS_BL_NOEPYSLOT_IN_EPYMAG "BL0014"
+    IDS_BL_NOFREESLOT_IN_FULLMAG "BL0015"
+    IDS_BL_NOSLOTASSIGN_THIS_PHYBLK "BL0016"
+    IDS_BL_NOBARCODE_FOUND  "BL0017"
+    IDS_BL_NOFRAME_EXIST    "BL0018"
+    IDS_BL_FRAME_REALIGN_FAIL "BL0019"
+    IDS_BL_NO_TOP1MAG       "BL0020"
+    IDS_BL_NO_MID1MAG       "BL0021"
+    IDS_BL_NO_BOT1MAG       "BL0022"
+    IDS_BL_NO_TOP2MAG       "BL0023"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_NO_MID2MAG       "BL0024"
+    IDS_BL_NO_BOT2MAG       "BL0025"
+    IDS_BL_NO_THISMAG       "BL0026"
+    IDS_BL_NOLOGICAL_FRAME  "BL0027"
+    IDS_BL_MAN_UNLOAD       "BL0028"
+    IDS_BL_CLEARBIN_FAILED  "BL0029"
+    IDS_BL_FRMAE_OUTMAGZ    "BL0030"
+    IDS_BL_NOFRAME_EXIST_SYS "BL0031"
+    IDS_BL_FRAME_EXIST_SYS  "BL0032"
+    IDS_BL_GRIPPER_JAM      "BL0033"
+    IDS_BL_MOTOR_OFF        "BL0034"
+    IDS_BL_GRIPPER_NOT_SAFE "BL0035"
+    IDS_BL_SELECT_BARCODE   "BL0036"
+    IDS_BL_FRONTARM_NOT_READY "BL0037"
+    IDS_BL_REARARM_NOT_READY "BL0038"
+    IDS_BL_FRONTARM_NO_FRAME "BL0039"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_REARARM_NO_FRAME "BL0040"
+    IDS_BL_BUFFER_NO_FRAME  "BL0041"
+    IDS_BL_ARM_MISSING_STEP "BL0042"
+    IDS_BL_BONDARM_NOT_SAFE "BL0043"
+    IDS_BL_NOLOGICAL_BUFFER_FRAME "BL0044"
+    IDS_BL_ELEVATOR_COVER_OPEN "BL0045"
+    IDS_BL_PLATFORM_NOT_DOWN "BL0046"
+    IDS_BL_CHECK_BARCODE    "BL0047"
+    IDS_BL_INVALID_LOGICAL_FRAME "BL0048"
+    IDS_BL_OUTPUT_SUMMARY_FILE "BL0049"
+    IDS_BL_UNLOAD_FRAME     "BL0050"
+    IDS_BL_LOAD_FRAME       "BL0051"
+    IDS_BL_OPERATION        "BL0052"
+    IDS_BL_EXCHANGE_FRAME   "BL0053"
+    IDS_BL_FRAME_REALIGN_NOTRDY "BL0054"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_Z_TLIMIT_HIT     "BL0072: BL Z T-limit sensor hit"
+    IDS_BL_Z_BLIMIT_HIT     "BL0073: BL Z B-limit sensor hit"
+    IDS_BL_FRMAE_NOT_DETECTED_IN_GRIPPER "BL0057"
+    IDS_BL_FRMAE_EXIST_ON_TABLE "BL0058"
+    IDS_BL_FRMAE_NOT_DETECTED_IN_U_BUFFER "BL0072"
+    IDS_BL_FRMAE_NOT_DETECTED_IN_L_BUFFER "BL0073"
+    IDS_BL_FRMAE_EXIST_IN_U_BUFFER "BL0074"
+    IDS_BL_FRMAE_EXIST_IN_L_BUFFER "BL0075"
+    IDS_BL_BUFFER_NOT_UP    "BL0076"
+    IDS_BL_BUFFER_NOT_DOWN  "BL0077"
+    IDS_BL_BUFFER_NOT_IN_CENTER "BL0078"
+    IDS_BL_NOLOGICAL_LBUFFER_FRAME "BL0083"
+    IDS_BL_NOLOGICAL_UBUFFER_FRAME "BL0084"
+    IDS_BL_FAIL_TO_GENERATE_COM_FILE "BL0085"
+    IDS_BL_8MAG_CONFIG_NOT_SUPPORT "BL0086"
+    IDS_BL_ME_NOEPYFRAME_IN_EPYMAG "BL0087"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BGP_UP_GRIPPER_JAM_MGZ_TO_BUFFER "BGP0001"
+    IDS_BGP_LOW_GRIPPER_JAM_MGZ_TO_BUFFER "BGP0002"
+    IDS_BGP_UP_GRIPPER_JAM_BUFFER_TO_TABLE "BGP0003"
+    IDS_BGP_LOW_GRIPPER_JAM_BUFFER_TO_TABLE "BGP0004"
+    IDS_BGP_UP_GRIPPER_JAM_TABLE_TO_BUFFER "BGP0005"
+    IDS_BGP_LOW_GRIPPER_JAM_TABLE_TO_BUFFER "BGP0006"
+    IDS_BGP_UP_GRIPPER_JAM_BUFFER_TO_MGZ "BGP0007"
+    IDS_BGP_LOW_GRIPPER_JAM_BUFFER_TO_MGZ "BGP0008"
+    IDS_BGP_UP_GRIPPER_JAM_SCAN_BARCODE "BGP0009"
+    IDS_BGP_LOW_GRIPPER_JAM_SCAN_BARCODE "BGP0010"
+    IDS_BGP_UP_GRIPPER_JAM_LOAD "BGP0011"
+    IDS_BGP_LOW_GRIPPER_JAM_LOAD "BGP0012"
+    IDS_BGP_UP_GRIPPER_JAM_UNLOAD "BGP0013"
+    IDS_BGP_LOW_GRIPPER_JAM_UNLOAD "BGP0014"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BGP_FRAME_NOT_DETECTED_IN_UP_GRIPPER_IN_LOAD "BGP0101"
+    IDS_BGP_FRAME_NOT_DETECTED_IN_LOW_GRIPPER_IN_LOAD "BGP0102"
+    IDS_BGP_FRAME_NOT_DETECTED_IN_UP_GRIPPER_IN_UNLOAD "BGP0103"
+    IDS_BGP_FRAME_NOT_DETECTED_IN_LOW_GRIPPER_IN_UNLOAD "BGP0104"
+    IDS_BGP_FRAME_NOT_DETECTED_IN_UP_GRIPPER_IN_SCAN_BARCODE "BGP0105"
+    IDS_BGP_FRAME_NOT_DETECTED_IN_LOW_GRIPPER_IN_SCAN_BARCODE "BGP0106"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_UP_GRIPPER_MISSINGSTEP "BGP0201"
+    IDS_BL_LOW_GRIPPER_MISSINGSTEP "BGP0202"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_MS_CHANGE_LOT_DIR   "Change Lot Directory"
+    HMB_MS_CREATE_DIRECTORY "Create directory?"
+    HMB_MS_LOAD_PKG_FILE    "Load Package File"
+    HMB_MS_LOAD_PKG_WARNING "All data will be replaced!\nContinue?"
+    HMB_MS_DELETE_PKG_WARNING "Delete selected file!\nContinue?"
+    HMB_MS_COLDSTART        "Cold Start"
+    HMB_MS_COLDSTART_WARNING1 "All data will be destroyed!\nContinue?"
+    HMB_MS_COLDSTART_WARNING2 
+                            "Machine will be reboot and all data will be destroyed!\nContinue?"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_MS_COLDSTART_ERROR  "Fail to delete files. Can't cold-start!"
+    HMB_MS_LOGOFF           "Log off"
+    HMB_MS_LOGOFF_WARNING   "Log off and switch to another user?"
+    HMB_MS_CHANGE_PASSWORD  "Change Password"
+    HMB_MS_CHANGE_PASSWORD_OK "Password is changed!"
+    HMB_MS_RESET_PASSWORD   "Reset Password"
+    HMB_MS_RESET_PASSWORD_OK "Password is reset!"
+    HMB_MS_POWER_OFF_ERROR  "Unable to reboot machine. Please power off manually!"
+    HMB_MS_CLEAR_NVRAM      "All data will be cleared!\nContinue?"
+    HMB_MS_RESET_HIPEC      "Confirm to reset HiPEC?"
+    HMB_MS_TCPIP_MESSAGE    "TCP/IP Message"
+    HMB_MS_TCPIP_DISABLED   "Communication is disabled!\nPlease check!"
+    HMB_MS_SYS_WARNING      "System Warning"
+    HMB_MS_SYS_EXIT         "Are you sure to exit?"
+    HMB_MS_SYS_MESSAGE      "System Message"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_GENERAL_CLEARED     "Cleared!"
+    HMB_GENERAL_RESET       "Reset!"
+    HMB_GENERAL_AREUSURE    "Are you sure?"
+    HMB_GENERAL_INVALID_PATH "Invalid file path!\nPlease check!"
+    HMB_GENERAL_COMPLETED   "Completed!"
+    HMB_GENERAL_STOPBYUSER  "Stop by user!"
+    HMB_GENERAL_FILE_GEN    "File is generated!"
+    HMB_GENERAL_ERROR       "Error!"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_MS_LOT_END          "End Lot?"
+    HMB_MS_LOT_FILE_GENERATED "Lot Summary is generated"
+    HMB_MS_BIN_NAME_RESET   "Bin name reset!"
+    HMB_MS_SAVE_PKG_FILE    "Save Package File"
+    HMB_MS_CREATE_DRIECTORY_FAILED "Create directory is failed!"
+    HMB_MS_SAVE_PKG_FILE_WARNING "Replace the existing file?"
+    HMB_MS_CREATE_FILE_FAILED "Create file is failed!"
+    HMB_MS_UPLOAD_WPR_FAILED "Fail to upload Wafer PR record!"
+    HMB_MS_UPLOAD_BPR_FAILED "Fail to upload Bond PR record!"
+    HMB_MS_SAVE_PKG_FILE_OK "Package file is created!"
+    HMB_MS_LOAD_PKG_FILE_CONFIRM 
+                            "All bins counter & wafermap will be cleared\nContinue to restore?"
+    HMB_MS_FILE_NOT_EXIST   "File is not exist!"
+    HMB_MS_DOWNLOAD_WPR_FAILED "Fail to download Wafer PR record!"
+    HMB_MS_DOWNLOAD_BPR_FAILED "Fail to download Bond PR record!"
+    HMB_MS_LOAD_PKG_OK      "Package file is loaded!\nMachine will be warm-start"
+    HMB_MS_LOAD_PKG_FAILED  "Fail to load package file!"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_MS_WARN_START_OK    "Warm-start complete!"
+    HMB_MS_SORT_SETUP_FILE  "Sort Setup File"
+    HMB_MS_SORT_BIN_FILE    "Sort Bin File"
+    HMB_MS_MES_TIME_OUT     "MES Time Out"
+    HMB_MS_MES_NG_RX        "MES NG Received"
+    HMB_MS_MES_MSG          "MES Connection"
+    HMB_MS_OPERATOR_VAILDATION "Opeator Validation"
+    HMB_MS_OPERATOR_VAILDATION_ERR 
+                            "Please input operator id before warm start"
+    HMB_MS_RESTORE_BIN_DATA "Restore Bin Data"
+    HMB_MS_RESTORE_BIN_CONFIRM 
+                            "All bins counter & wafermap will be cleared\nContinue to restore?"
+    HMB_MS_REMOVE_RUNTIME_FILES_FAILED "Remove runtime files failed"
+    HMB_RESTORE_BIN_DATA_FAILED "Restore bin data failed"
+    HMB_RESTORE_BIN_DATA_COMPLETED "Restore bin data complete"
+    HMB_MS_SAVE_BIN_DATA    "Save Bin Data"
+    HMB_MS_SAVE_BIN_DATA_FAILED "Save Bin Data Failed"
+    HMB_MS_GEN_BIN_SUM_FAILED "Generate bin summary file failed"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BT_CLEAR_ONE_PHY_BLK "Clear this physical Block!\nAre you sure?"
+    HMB_BT_SETUP_PHY_BLK    "Physical Block Setup"
+    HMB_BT_PHY_BLK_CLEARED  "Physical block setting is cleared!"
+    HMB_BT_CLEAR_ALL_PHY_BLK "Clear all physical Blocks!\nAre you sure?"
+    HMB_BT_SETUP_BIN_BLK    "Bin Block Setup"
+    HMB_BT_BIN_BLK_CLEARED  "Bin block setting is cleared!"
+    HMB_BT_CLEAR_ONE_BIN_BLK "Clear this bin block!\nAre you sure?"
+    HMB_BT_CLEAR_ALL_BIN_BLK "Clear all bin blocks!\nAre you sure?"
+    HMB_BT_SETUP_PHY_BLK_OK "Setup is completed!"
+    HMB_BT_SETUP_BIN_BLK_OK "Setup is completed!"
+    HMB_BT_CLEAR_BIN_COUNTER "Clear Bin Counter"
+    HMB_BT_PHY_BLK_COUNT_CLEARED "Physical block counter is cleared!"
+    HMB_BT_CONFIRM_NO_OUTPUT_FILE 
+                            "Output file is NOT going to generate!\nDo you want to continue?"
+    HMB_BT_OUTPUT_INTO_BACKUP_FD 
+                            "Output directory is invalid!\nOutput into backup directory?"
+    HMB_BT_CLEAR_BIN_FAILED "Bin counter is not cleared!"
+    HMB_BT_NO_OUTPUT_FORMAT "Output file format is not selected!\nPlease select format!"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BT_ALL_BINS_COUNTER_CLEARED "All bin counters are cleared!"
+    HMB_BT_ONE_BIN_COUNTER_CLEARED "This bin counter is cleared!"
+    HMB_BT_SOME_BIN_COUNTER_NOT_CLR 
+                            "Some bin counters are not cleared!\nPlease check output file setting!"
+    HMB_BT_CHANGE_LOT_NO    "Change Lot No"
+    HMB_BT_CONF_CHANGE_LOT_NO 
+                            "Bin count is not cleared yet.\nProceed with changing lot number without clear bin count?"
+    HMB_BT_CHANGE_LOT_DIRECTORY "Change Lot Directory"
+    HMB_BT_CONF_CHANGE_LOT_DR 
+                            "Bin count is not cleared yet.\nProceed with changing lot directory without clear bin count?"
+    HMB_BT_BIN_SNR_NO       "Bin serial no"
+    HMB_BT_RESET_SNR_NO     "Reset serial no to 1?"
+    HMB_BT_BIN_CLEARED_COUNT "Bin cleared count"
+    HMB_BT_RESET_BINCLR_COUNT "Reset bin cleared bount to initial value?"
+    HMB_BT_NAME_FILE        "Name file"
+    HMB_BT_NAME_FILE_LOADED "Name file is loaded!"
+    HMB_BT_NAME_FILE_RESET  "All name are reset!"
+    HMB_BT_REPRINT_LABEL    "Reprint Label"
+    HMB_BT_REPRINT_FAILED   "Printing process is failed!\nPlease check the folowings:\n\n 1. Driver installed?\n 2. No paper or jammed?\n 3. Printer power on?\n 4. Correct label file?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BT_ONLY_COPY_GRADE1 "BT0048"
+    IDS_BT_WRONG_COPY_RANGE "BT0049"
+    IDS_BT_MAP_FORMAT_CHANGED "BT0050"
+    IDS_BT_INVALID_FILE_FORMAT "BT0051"
+    IDS_BT_NO_DIE_ON_BLOCK  "BT0052"
+    IDS_BT_REALIGN_NO_UL_DIE "BT0053"
+    IDS_BT_ONLY_1_DIE_ON_BLOCK "BT0054"
+    IDS_BT_REALIGN_NO_UR_DIE "BT0055"
+    IDS_BT_REALIGN_ANGLE_TOO_LARGE "BT0056"
+    IDS_BT_REALIGN_LAST_DIE_SHIFT "BT0057"
+    IDS_BT_REALIGN_NO_LAST_DIE "BT0058"
+    IDS_BT_REALIGN_FAILED   "BT0059"
+    IDS_BT_AUTO_CLR_BIN_COUNTER "BT0060"
+    IDS_BT_INVALID_DIRECTORY "BT0061"
+    IDS_BT_CREATE_MAP_FAILED "BT0062"
+    IDS_BT_NO_DIE_TO_GEN_OTF "BT0063"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BT_COLLET_OFFSET    "Collet Offset"
+    HMB_BT_AUTO_ADJ_OFFSET  "Auto adjust offset?"
+    HMB_BT_ADJ_OFFSET_STEP1 "Please use joystick move to\nDie center and press OK"
+    HMB_BT_ADJ_OFFSET_STEP2 "Please use joystick move to\nDie center"
+    HMB_BT_REALIGN_STEP1    "Use joystick move to first die in first row"
+    HMB_BT_REALIGN_STEP2    "Use joystick move to last die in first row"
+    HMB_BT_REALIGN_BIN_BLOCK "Realign bin block"
+    HMB_BT_GEN_WAFEREND_FILE "Generate WaferEnd File"
+    HMB_BT_CONF_CLEAR_SETTING 
+                            "Bin count is not cleared yet.\nContinue to clear setting?"
+    HMB_BT_BLK_COUNT_CLEARED "Block counter is cleared!"
+    HMB_BT_CLR_ALL_BIN      "Clear All Bin"
+    HMB_BT_CLR_ALL_BIN_CONFIRM "Are you sure to clear all bin?"
+    HMB_BT_RESET_BIN_SERIAL "Reset Bin Serial?"
+    HMB_BT_SAVE_BINBLK_TEMPLATE_COMPLETE "Save bin block template complete"
+    HMB_BT_FAIL_TO_SAVE_BINBLK_TEMPLATE "Fail to save bin block template"
+    HMB_BT_BIN_BLK_TEMPLATE_SETUP "Bin block template Setup"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BT_FAIL_TO_GEN_DATABASE "BT0064"
+    IDS_BT_FAIL_TO_LOAD_TEMP_FILE "BT0065"
+    IDS_BT_FAIL_TO_GEN_OTF  "BT0066"
+    IDS_BT_FAIL_TO_CREATE_OBJ "BT0067"
+    IDS_BT_FAIL_TO_PRN_LABEL "BT0068"
+    IDS_BT_NO_OTF_FORMAT    "BT0069"
+    IDS_BT_FAIL_TO_GEN_WEF  "BT0070"
+    IDS_BT_REALIGN_NO_LAST_DIE_2 "BT0071"
+    IDS_BT_POS_OUT_LIMIT    "BT0072"
+    IDS_BT_BINID_GT_BINBLKNO "BT0073"
+    IDS_BT_CLR_BIN_BY_GRADE "BT0074"
+    IDS_BT_FAIL_TO_LOAD_RANK_FILE "BT0075"
+    IDS_BT_FAIL_TO_COMPARE_BIN_FILE "BT0076"
+    IDS_BT_FILE_ALREDAY_EXIST "BT0077"
+    IDS_BT_WAFER_END_FILE_NOT_YET_GENERATED "BT0078"
+    IDS_BT_GEN_WAFERENDFILE_FAILED "BT0079"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BPR_DIE_CALIBRATION "Die calibration"
+    HMB_BPR_START_CALIBRATION "Start calibration?"
+    HMB_BPR_CALIBRATION_OK  "Calibration is done!"
+    HMB_BPR_POSTBOND        "Postbond"
+    HMB_BPR_COPY_OK         "Copy is completed!"
+    HMB_BPR_ONLY_COPY_BLK1  "Only block 1 can be copied!"
+    HMB_BPR_LRN_DIE         "Learn Die"
+    HMB_BPR_LRN_DIE_OK      "Learn Die OK!"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BPR_DIE_NOT_READY   "BPR0016"
+    IDS_BPR_LRN_DIE_FAILED  "BPR0017"
+    IDS_BPR_SRH_DIE_FAILED  "BPR0018"
+    HMB_BPR_REMOVE_PR_RECORD "Delete BPR record"
+    HMB_BPR_ALL_PRID_REMOVED "All BPR IDs are cleared!"
+    HMB_BPR_ONE_PRID_REMOVED "BPR ID is cleared!"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BRP_SRN_DIE_RESULT  "Search die result"
+    HMB_BPR_ENABLE_POST_BOND_INSPECTION 
+                            "Postbond inspection not enabled! Enable it now?"
+    HMB_BPR_COPY_ALL_POST_BOND_CRITERIA "Copy all post bond criteria ?"
+    HMB_BPR_CK_POST_BOND_SETUP "Check post bond setup"
+    HMB_BPR_BOND_PR_NOT_SETUP_PROPERLY 
+                            "No record for postbond / Postbond is disabled"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WPR_DIE_CALIBRATION "Die calibration"
+    HMB_WPR_START_CALIBRATION "Start calibration?"
+    HMB_WPR_DIE_PITCH       "Die pitch"
+    HMB_WPR_START_LRN_PITCH "Start to learn die pitch?"
+    HMB_WPR_LRN_PITCH_OK    "Die pitch learnt OK!"
+    HMB_WPR_DIE_CALIBRATION_OK "Calibration is done!"
+    HMB_WPR_REMOVE_PR_RECORD "Delete PR record"
+    HMB_WPR_ALL_PRID_REMOVED "All PR IDs are cleared!"
+    HMB_WPR_ONE_PRID_REMOVED "PR ID is cleared!"
+    HMB_WPR_MANUAL_ALIGN_HDIE "Manual align home"
+    HMB_WPR_FIND_GOOD_REFDIE "Good reference die is found!"
+    HMB_WPR_ADAPTIVE_LRN_DIE "Adaptive learn die"
+    HMB_WPR_LRN_DIE_FAILED_1 "Invalid parameter!"
+    HMB_WPR_LRN_DIE_FAILED_2 "No reference is found!"
+    HMB_WPR_LRN_DIE_FAILED_3 "Invalid die ID!"
+    HMB_WPR_LRN_DIE_FAILED_4 "Die Angle too large!"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WPR_LRN_DIE_FAILED_5 "No die is found!"
+    HMB_WPR_LRN_DIE_FAILED_6 "Defective die is found!"
+    HMB_WPR_LRN_DIE_FAILED_7 "Algorithm is not learnt!"
+    HMB_WPR_LRN_DIE_FAILED_8 "Locate defective die"
+    HMB_WPR_LRN_DIE_FAILED_9 "Non locate defective die"
+    HMB_WPR_LRN_DIE_OK      "Learn Die OK!"
+    HMB_WPR_SRH_REF_DIE     "Search reference die"
+    HMB_WPR_SELECT_SRH_TYPE "Please select search type"
+    HMB_WPR_MANUAL_DIE_PITCH "Manual die pitch"
+    HMB_WPR_MLRN_PITCH_STEP_1 "Please move to Start die center"
+    HMB_WPR_MLRN_PITCH_STEP_2 "Please move to LEFT die center"
+    HMB_WPR_MLRN_PITCH_STEP_3 "Please move to UP die center"
+    HMB_WPR_LRN_DIE         "Learn Die"
+    HMB_WPR_INVALID_DIE_NO  "Invalid die no is selected!"
+    HMB_WPR_SRH_DIE_RESULT  "Search die result"
+    HMB_WPR_IM_WAFER_END_CHECKING "IM wafer end checking"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WL_BARCODE_RESULT   "Barcode result"
+    HMB_WL_NO_BARCODE_READ  "No barcode is read!"
+    HMB_WL_NOT_FULLYAUTO    "Please select fully auto mode!"
+    HMB_WL_AUTO_UNLOAD_TEST "Auto load/unload test"
+    HMB_WL_LOAD_CAS_FILE    "Load Cassette Barcode File"
+    HMB_WL_LOAD_CAS_FILE_FAILED "Load Cassette Barcode File Failed"
+    HMB_WL_LOAD_CAS_FILE_COMPLETE "Load Cassette Barcode File Complete"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BL_BARCODE_RESULT   "Barcode result"
+    HMB_BL_NO_BARCODE_READ  "No barcode is read!"
+    HMB_BL_OPERATION_MODE   "Operation Mode"
+    HMB_BL_SELECT_MODE_A    "Mode A is selected"
+    HMB_BL_SELECT_MODE_B    "Mode B is selected"
+    HMB_BL_SELECT_MODE_C    "Mode C is selected"
+    HMB_BL_SELECT_MODE_D    "Mode D is selected"
+    HMB_BL_RESET_MAGAZINE   "Reset Magazine"
+    HMB_BL_SELECT_RESET_MAGZ "Select magazine to reset"
+    HMB_BL_REALIGN_DISABLED "Realignment is disabled!"
+    HMB_BL_REALIGN_OK       "Realignment is OK!"
+    HMB_BL_OUTPUT_SUMMARY_FILE "Output summary file"
+    HMB_BL_CLEAR_SUMMARY_FILE "Confirm to clear all files?"
+    HMB_BL_UNLOAD_TO_FULL_MAGZ "Unload to full magazine?"
+    HMB_BL_MAGZ_IS_EMPTY_RESET "Empty Magazine is empty!\nReset magazine?"
+    HMB_BL_MAGZ_IS_FULL_RESET "Full Magazine is full!\nReset magazine?"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BH_RESET_CLEAN_PROBE_PIN_CONF "Reset Clean Probe Pin Count"
+    HMB_BH_TESTER_CORRELATION "Tester correlation"
+    HMB_BH_LEARN_PROBE_TABLE_LEVEL "Learn Probe Table Level"
+    HMB_BH_MOVE_TO_POINT    "Please move probe table to point"
+    HMB_BH_FAIL_TO_SEARCH_CONTACT_SENSOR 
+                            "Probe table fail to search contact sensor"
+    HMB_BH_TESTER           "Tester"
+    HMB_BH_CONTACT_SNRS_ON  "Contact Sensors On"
+    HMB_BH_EJTXY_NO_POWER   "BH0047"
+    HMB_BH_EJT_KOFFSET      "Ejector KOffset"
+    HMB_BH_RESET_EJT_KOFFSET_CONF "Reset Ejector KOffset?"
+    HMB_BH_NOT_CLEAN_COLLET_SAFETY "Clean Collet Not Safety "
+    HMB_BH_CHANGE_COLLET_PUSHER_NOT_AT_UP_POSITION 
+                            "AGC: Pusher is not at UP position"
+    HMB_BL_AUTO_LINE_CLEAR_FRAME_MAGZ_IS_FULL_RESET 
+                            "Full Magazine is full!\nReset magazine?"
+    HMB_BL_INLINE_TO_STANDALONE 
+                            "Transfer Inline to Standalone,\nPlease take all full frame from TOP2 magazine,\nthen press 'Yes' button"
+    HMB_BL_STANDALONE_TO_INLINE 
+                            "Transfer Standalone to Inline,\nPlease take all empty frame from MID2 magazine,\nthen press 'Yes' button"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BL_UNLOAD_BUFFER_TO_MAGZ "Unload frame to magzine from buffer(Y/N)"
+    HMB_BL_MAGZ_IS_EMPTY_RESET_CHANGELIGHTXM 
+                            "Empty Magazine(MID2) is empty!\nReset magazine?"
+    HMB_BL_MAGZ_IS_FULL_RESET_CHANGELIGHTXM 
+                            "Full Magazine(TOP2) is full!\nReset magazine?"
+    HMB_BL_AUTO_LINE_CLEAR_FRAME_MAGZ_IS_FULL_RESET_CHANGELIGHTXM 
+                            "Full Magazine(TOP2) is full!\nReset magazine?"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BL_BUFFBLK_NOT_ZERO "Current buffer block is not zero!\nDo you want to continue?"
+    HMB_BL_BUFF_NO_FRAME    "No frame exists in buffer table!\nContinue?"
+    HMB_BL_PUT_FRAME_INTO_BT "Please put frame on bintable!\nContinue?"
+    HMB_BL_BT_NO_FRAME      "No frame exists in bintable!\nContinue?"
+    HMB_BL_UNLOAD_MANUALLY  "Unload manually?"
+    HMB_BL_LOGICALBLK_NOT_ZERO 
+                            "Current logical block is not zero!\nDo you want to continue?"
+    HMB_BL_REMOVE_BUFF_FRAME 
+                            "Frame exists in buffer table!\nPlease remove the frame!"
+    HMB_BL_PUT_FRAME_INTO_GRIP "Please push frame into gripper!"
+    HMB_BL_FRAME_ON_BT_RHS  "Frame exists on bintable right edge only!\nPlease push it back!"
+    HMB_BL_FRAME_ON_BT_LHS  "Frame exists on bintable left edge only!\nPlease push it back!"
+    HMB_BL_REMOVE_BT_FRAME  "Frame exists in bintable!\nPlease remove the frame!"
+    HMB_BL_CLEAR_ALL_FRAME  "ClearAll Frame"
+    HMB_BL_CLEAR_ALL_MODE   "Please Select clear mode"
+    HMB_BL_RESET_ALL_MAGZ   "Reset All Magazine?"
+    HMB_BL_NO_MORE_FRAME_CLR "No frame need to be cleared!"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BH_SEARCH_CONTACT_SNR_FAIL "Search contact sensor fail"
+    HMB_BH_CHANGE_COLLET_CNT "Change collet count"
+    HMB_BH_RESET_COLLET_CONF "Confirm to reset change collet count?"
+    HMB_BH_CLEAN_COLLET_CNT "Clean collet count"
+    HMB_BH_RESET_CLEAN_CONF "Confirm to reset collet clean count?"
+    HMB_BH_EJT_COUNT        "Ejector count"
+    HMB_BH_RESET_EJT_CONF   "Confirm to reset ejector count?"
+    HMB_BH_GENERAL_DIE_CNT  "General die count"
+    HMB_BH_RESET_GENERAL_CNT "Confirm to reset all counts?"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BH_WAFER_DIE_CNT    "Current wafer die count"
+    HMB_BH_RESET_WAFER_CNT  "Confirm to reset current counts?"
+    HMB_BH_CLEAN_COLLET     "Clean collet"
+    HMB_BH_CLEAN_COLLET_OK  "Press OK to finish!"
+    HMB_BH_AIR_FLOW_SENSOR_RESPONSE_TEST "Air flow sensor response test"
+    HMB_BH_AIR_FLOW_SENSOR_RESPONSE_TIME_OUT 
+                            "Air flow sensor response timeout"
+    HMB_BH_AIR_FLOW_SENSOR_RESPONSE_TEST_START 
+                            "Air flow sensor response test start"
+    HMB_BH_OPEN_DAC         "Open DAC"
+    HMB_BH_START_OPEN_DAC_CALIB 
+                            "Start Calibration!\nBondArm will move to Clean Collet Position!"
+    HMB_BH_STOP_OPEN_DAC_CALIB 
+                            "Stop Calibration!\nBondArm will move to Pre Pick Position!"
+    HMB_BH_OPEN_DAC_CALIB_WITH_GRAM_GAUGE 
+                            "Please put Gram Gauge near the BondHead Position\n Adjust it to 100 Gram!"
+    HMB_BH_START_OPEN_DAC_CALIB_RATIO_CHECK 
+                            "Start Checking!\nBondArm will move to Clean Collet Position!"
+    HMB_BH_STOP_OPEN_DAC_CALIB_RATIO_CHECK 
+                            "Stop Checking!\nBondArm will move to Pre Pick Position!"
+    HMB_BH_DAC_DIST_CALIB   "DAC Distance Calibration"
+    HMB_BH_DAC_DIST_CALIB_START "DAC Distance Calibration Start"
+    HMB_BH_DAC_DIST_CALIB_STOP "DAC Distance Calibration Stop"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WT_ALIGN_WAFER      "Align Wafer"
+    HMB_WT_INVALID_MAP_SIZE "Map size is invalid!"
+    HMB_WT_ALN_IS_DEFECT    "Map not match!\nDefect Die found on wafer!"
+    HMB_WT_ALN_IS_EMPTY     "Map not match!\nEmpty Die found on wafer!"
+    HMB_WT_ALN_IS_NO_GRADE  "Map not match!\nNo Die Grade on mapfile!"
+    HMB_WT_OUT_WAFER_LIMIT  "Map not match!\nWafer is outside limit!"
+    HMB_WT_WAFER_HAS_DIE    "Map not match!\nDie is found on wafer!"
+    HMB_WT_AUTO_ALIGN_FAILED "Auto align is failed!"
+    HMB_WT_NO_REF_DIE_FOUND "Can not find reference die!\nAuto align is failed!"
+    HMB_WT_AUTO_ALIGN_OK    "Auto align is finished!"
+    HMB_WT_AUTO_ALIGN_WARN_1 
+                            "Auto align warning!\nAlignment result is no good!"
+    HMB_WT_AUTO_ALIGN_WARN_2 
+                            "Auto align warning!\nCross check align is failed!"
+    HMB_WT_CHECK_SCN_FUNC   "Check SCN function"
+    HMB_WT_NO_REF_LEARNT    "No reference die is learnt!"
+    HMB_WT_PR_SEARCH_ERROR  "PR Search Error!"
+    HMB_WT_LOTID_NOT_MATCH  "Lot ID not match!\nPlease check!"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WT_ALIGN_DIE_FAILED "Fail to align die!"
+    HMB_WT_START_ALIGN_WAFER "Start align wafer?"
+    HMB_WT_SET_ALIGN_POS    "Please use joystick move to\nwafer start position"
+    HMB_WT_MAP_HEADER_FILE  "Wafermap header file"
+    HMB_WT_LOAD_HEADER_OK   "Header file is loaded!"
+    HMB_WT_LOAD_HEADER_FAILED "Header file format is invalided!"
+    HMB_WT_SAVE_HEADER_OK   "Header file is saved!\nPlease define Output File Format again!"
+    HMB_WT_OTF_FORMAT_FILE  "Output format file"
+    HMB_WT_LOAD_OTF_OK      "Output format file is loaded!"
+    HMB_WT_LOAD_OTF_FAILED  "Output format file is invalided!"
+    HMB_WT_SAVE_OTF_OK      "Output format file is saved!"
+    HMB_WT_POLYGON_LIMIT    "Polygon limit"
+    HMB_WT_SET_POLYGON_LMT_1 
+                            "Please move joystick to\n1.The Upper Left point\n2.In Anti-Clockwise sequence"
+    HMB_WT_SET_POLYGON_FAILED "This is not a covex polygon!"
+    HMB_WT_MAP_SYNC_MOVE    "Map sync move"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WT_MAP_FILE_EMPTY   "Map file not loaded!\nPlease load map!"
+    HMB_WT_MAP_UPDATE_POS   "Start wafer from current position?"
+    HMB_WT_SORTING_CHECK_PTS "Read sorting check point file"
+    HMB_WT_INVALID_SORTING_CHECK_PTS_FILE "Invalid sorting check points file!"
+    HMB_WT_LOAD_SORTING_CHECK_PTS_FILE_OK 
+                            "Finished Load Sorting Check Points File!"
+    HMB_WT_DIE_TYPE_FROM_MAP_MISMATCH 
+                            "Die type from map mismatch with user defined!\n Please check Bond -> Wafer Map Setup -> Options -> Die Check Option  -> More"
+    HMB_WT_DIE_TYPE_CHECK_FAIL "Die Type Check Fail"
+    HMB_WT_AUTO_DIE_TYPE_CHECK_FAIL_1 
+                            "Die Type from map mismatch with previous wafer! Please check the following field(s)\n"
+    HMB_WT_AUTO_DIE_TYPE_CHECK_FAIL_2 
+                            "Auto Check can be disabled in: Bond -> Wafer Map Setup -> Options -> Die Option -> More"
+    HMB_WT_DIE_TYPE_CHECK_FAILED "Die type check failed"
+    HMB_WT_MAPFILE_NOT_EXIST "Cannot find map file"
+    HMB_WT_LOAD_MAP_FAILED  "Load map failed"
+    HMB_WT_LOAD_UNLOAD_LIMIT 
+                            "Wafer Table Load/Unload position outside wafer limit!"
+    HMB_WT_PICK_N_PLACE     "Pick and place"
+    HMB_WT_EN_PNP_FAILED_OPT_EN 
+                            "Fail to enable pick and place\n Optimize bin count is enabled"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_PRS_GOOD_DIE        "Good Die"
+    HMB_PRS_NO_DIE          "No Die"
+    HMB_PRS_CHIP_DIE        "Chip Die"
+    HMB_PRS_INK_DIE         "Ink Die"
+    HMB_PRS_HALF_DIE        "Half Die"
+    HMB_PRS_BLANK_DIE       "Blank Die"
+    HMB_PRS_TEST_DIE        "Test Die"
+    HMB_PRS_DEFECT_DIE      "Defective Die"
+    HMB_PRS_NL_DEFECT_DIE   "Non Located Defective Die"
+    HMB_PRS_L_DEFECT_DIE    "Located Defective Die"
+    HMB_PRS_AB_INTENSITY    "Abnormal Intensity"
+    HMB_PRS_REJECT_SIZE     "Reject Die Size"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_PRS_REJECT_ANGLE    "Reject Die Rotation"
+    HMB_PRS_EXCEED_ANGLE    "Exceed Rotation Spec"
+    HMB_PRS_REJECT_CRN      "Reject Corner Angle"
+    HMB_PRS_REJECT_PAD_SIZE "Reject Bond Pad Size"
+    HMB_PRS_REJECT_PAD_AREA "Reject Bond Pad Area"
+    HMB_PRS_REJECT_LE_AREA  "Reject Light Emitting Area"
+    HMB_PRS_BAD_CUT_DIE     "Bad Cut Die"
+    HMB_PRS_BACKUP_ALIGN    "Aligned by backup"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ST_LAN_DISCONNECTED "ST0001"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BL_KEYIN_BARCODE    "Please input barcode for this frame"
+    HMB_BL_SELECT_MODE_E    "Mode E is selected"
+    HMB_BL_BUFF_FRAME_NOT_IN_CENTER_CONTINUE 
+                            "Frame does not sit on the buffer center.\nAdjust it manually and Continue?"
+    HMB_BL_PUT_JAM_FRAME_TO_BUFFER 
+                            "Frame is jammed!\nPush it to the buffer manually and Continue?"
+    HMB_BL_RESET_BUFFER     "Reset Buffer Table"
+    HMB_BL_SELECT_RESET_BUFFER "Select Buffer to Reset"
+    HMB_BL_AUTO_PUSH_FRAME_BACK_TO_MGZ "Auto push the frame back to magazine?"
+    HMB_BL_DUAL_BUFFER_TEST "Buffer Test"
+    IDS_BL_CHECK_ALL_WAFER_LOADED_FAIL 
+                            "Unable to clear all frame\nSome wafers are not sorted"
+    HMB_BL_SETUP_CHECK      "BinLoader setup"
+    HMB_BL_BC_READER_IS_DISABLED 
+                            "Barcode scanner is disabled\n\nContinue bonding or Stop?"
+    HMB_BL_CLEAR_ALL_FRAME_NOT_COMPLETE "Clear all frame is not completed"
+    HMB_BL_UPLOAD_SUMMARY   "Upload summary file"
+    HMB_BL_UPLOAD_SUMMARY_FAIL "Upload summary file fail"
+    HMB_BL_UPLOAD_SUMMARY_COMPLETE "Upload summary file complete"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WPR_CAMERA_LEVEL_ERR "Input Out Of Range!"
+    IDS_WPR_LRN_PITCH_INVALID_MASTER_X "WPR0033"
+    IDS_WPR_LRN_PITCH_INVALID_MASTER_Y "WPR0034"
+    IDS_WPR_REFDIENOTLEARNT "WPR0035"
+    IDS_WL_CANNNOT_START_WITHOUT_BARCODE "WL0036"
+    IDS_WPR_BL_NOT_IN_SAFE_POS "WPR0037"
+    IDS_WPR_ERR_ORIENTATION "WPR0038"
+    IDS_WPR_ERR_COLLETEPOXY "WPR0039"
+    IDS_WPR_PRESCAN_GOOD_LOW "WPR0040"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WT_NO_WAFER_IN_LOT  "WT0016"
+    IDS_WT_CANNOT_MOVE      "WT0017"
+    IDS_WT_REFDIE_CHECK_GD_FAIL "WT0018"
+    IDS_WT_REFDIE_CHECK_GD_OK "WT0019"
+    IDS_WT_INVALID_MAP_PHY_POS "WT0020"
+    IDS_WT_SORTING_CHECK_PTS "WT0021"
+    HMB_MS_INVALID_OUTPUT_FILE_FORMAT 
+                            "Error! Invalid output file format!\nPlease check clear bin settings and wafer map header!"
+    IDS_WT_CREATE_CURRENT_MAP_FAILED "WT0023"
+    IDS_WT_PSM_EXIST_CHECK  "WT0024"
+    IDS_WT_WAFER_GRADE_MAP_ERROR "WT0025"
+    IDS_WT_BL_NOT_IN_SAFE_POS "WT0026"
+    IDS_WT_EJEL_NOT_IN_SAFE_POS "WT0027"
+    IDS_WT_PRESCAN_FINISHED "WT0028"
+    IDS_WT_PRESCAN_FAILED   "WT0029"
+    IDS_WT_GEN_MAP_FAIL     "WT0030"
+    IDS_WT_GEN_MAP_SUCCESS  "WT0031"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WT_EMPTY_OUTPUT_MAP_FILE_NAME "WT0032"
+    IDS_WT_PROBE_TABLE_NOT_DOWN "WT0033"
+    HMB_WT_DIE_ORIENTATION_FAIL "WT0034"
+    IDS_WT_EJT_NOT_SAFE     "WT0035"
+    IDS_WT_SCAN_CHECK_ERROR_OVER_LIMIT "WT0036"
+    IDS_WT_CLEAN_EJ_PIN_FAILED "WT0037"
+    HMB_WT_CAN_NOT_FIND_ALIGNMENT_GOOD_DIE "WT0038"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_MS_REPORT_TIME_SETUP "Machine Report Time Setup"
+    HMB_MS_REPORT_TIME_SAVE_FAIL "Invalid report time period!\n Please check!"
+    HMB_MS_REPORT_TIME_SETUP_SUCCESS "Report time setup finshed!"
+    HMB_MS_OUTPUT_FILE_SELECT 
+                            "Please select the format:\n 1. LED Wafer\n 2. Submount\\Substrate\n 3. Others\n"
+    HMB_MS_FORMAT_SELECTION "Format Selection"
+    HMB_MS_FORMAT_SELECT_REMIND 
+                            "Please select correct map header and output file format before start!"
+    HMB_MS_REMIND           "Reminder"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BT_LOAD_TEMPLATE    "Load Template"
+    HMB_BT_LOAD_TEMPLATE_COMPLETE "Load Bin Block Template Complete"
+    HMB_BT_REMOVE_BINBLK_TEMPLATE "Remove template"
+    HMB_BT_REMOVE_BINBLK_TEMPLATE_FAIL "Remove bin block template fail"
+    HMB_BT_REMOVE_BINBLK_TEMPLATE_COMPLETE 
+                            "Remove bin block template complete"
+    HMB_BT_TEMPLATE_HIT_LIMIT "Bin block template hit max limit"
+    HMB_BT_FRAME_EX_ON_BUF_OR_BT 
+                            "Frame exist on bin table or buffer table! Please unload it before clear all frame"
+    HMB_BT_AUTO_GEN_SUM_SETUP "Auto Generate Bin Summary Setup"
+    HMB_BT_AUTO_GEN_SUM_SETUP_COMPLETE 
+                            "Auto Generate Bin Summary Setup Complete"
+    HMB_BT_AUTO_GEN_SUM_SETUP_FAIL "Auto Generate Bin Summary Setup Fail"
+    HMB_BT_LOAD_BIN_LOT_SUM_FILE "Load bin lot summary file"
+    HMB_BT_LOAD_BIN_LOT_SUM_FILE_COMPLETE "Load bin lot summary file complete"
+    HMB_BT_LOAD_BIN_LOT_SUM_FILE_FAILED "Load bin lot summary file failed"
+    HMB_BT_EXCEED_BIN_BLK_CAPACITY "Exceed bin block capacity\n Grade "
+    HMB_OPT_BIN_GRADE_OPTION_DIABLED "Optimize bin count option disabled"
+    HMB_BT_NO_OF_GRADES_EXCEED_BLK_NO 
+                            "Total no of grade exceeds total no of blocks"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BT_INVALID_FIRST_ROW_COL_SKIP_DIE_PATTERN "BT0080"
+    HMB_BT_OPT_DATA_UPDATE_COMPLETED "Optimize bin count setup complete"
+    HMB_BT_OPT_DATA_UPDATE  "Optimize bin count data setup"
+    IDS_BT_FAIL_TO_FIT_INTO_PHY_BLK "BT0086"
+    IDS_BT_CP_BARCODE_LENGTH_FAILED "BT0087"
+    IDS_BT_DIE_IS_FOUND_ON_EMPTY_BIN "BT0088"
+    IDS_BT_PRE_BOND_ALIGN_PAD_FAIL "BT0090"
+    IDS_BT_NO_EXTRA_FILE_DATA_ERR "BT0091"
+    IDS_BT_BIN_NO_BATCH_ID  "BT0092"
+    IDS_BT_MANUAL_INPUT_BC  "BT0093"
+    IDS_BT_WAFER_YIELD_ALARM "BT0094"
+    IDS_BT_WAFER_END_FILE_AUTO_GENERATE "BT0095"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BT_DIE_COUNT_MATCH_ERR "BT0096"
+    IDS_BT_FRAME_ORIENT_CHK_FAIL "Bin frame orientation check fails!"
+    IDS_BT_MOTOR_OFF        "BT0098"
+    IDS_BT_MOTOR_NOT_HOMED  "BT0099"
+    IDS_BT_GEN_TMP_FILE_ERROR "BT0100"
+    IDS_BT_DIR_NOT_MATCH_WAFER "BT0101"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_MS_SAVE_BIN_DATA_COMPLETE "Save Bin Data Complete"
+    HMB_MS_RESTORE_BIN_DATA_WARNING "All data will be replaced!\nContinue?"""
+    HMB_MS_FILE_EXT_NOT_SUPPORTED "File extension is not supported!"
+    HMB_MS_PLLM_DIE_FAB_GRADE_INPUT "Please input Grade"
+    HMB_MS_PLLM_DIE_FAB_MES_PART_INPUT "Please input MES Part no."
+    HMB_MS_PLLM_DIE_FAB_MES_LOT_INPUT "Please input MES Lot no."
+    HMB_MS_PLLM_OPERATOR_ID_INPUT "Please input Operator ID"
+    HMB_MS_PLLM_PRODUCT_ID_INPUT "Please input Product ID"
+    HMB_MS_PRESTART_CYCLE   "PreStart"
+    HMB_MS_NO_MAP_SORT_MODE "No map sort mode\n Please switch to pick and place mode"
+    HMB_MS_MACHINE_STOP     "Machine Stopped! Safe to open the machine cover!"
+    HMB_MS_AMI_CONTENT_CHECK_FAIL "Ami content check fail"
+    HMB_MS_AMI_LOAD_COMPLETE "Ami load complete"
+    HMB_MS_PLLM_PART_NAME_INPUT "Please input PART name"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WL_COMPARE_BC_FAILED "WL0032"
+    IDS_WL_FRAME_IS_DETECTED "WL0033"
+    IDS_WL_CLEAN_EJECOTR_CAP_LIMIT "WL0034"
+    IDS_WL_LOAD_PKKG_FILE_FAIL "WL0035"
+    IDS_WL_LOAD_PKG_FILE_FAIL "WL0037"
+    IDS_WL_WPR_AUTO_FOCUS_FAIL "WL0038"
+    IDS_WL_BL_NOT_IN_SAFE_POS "WL0039"
+    IDS_WL_EJEL_NOT_IN_SAFE_POS "WL0040"
+    IDS_WL_MAGS_FULL        "WL0041"
+    IDS_WL_MAG1_FULL        "WL0042"
+    IDS_WL_MAG2_FULL        "WL0043"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEC_WL_UPLOADMAP_FAIL "SEC011"
+    IDS_SEC_WL_UPLOADMAP_NOTVALID "SEC012"
+    IDS_SEC_WL_UPLOADMAP_TIMEOUT "SEC013"
+    IDS_SEC_WL_UPLOADMAP_ACK2_ERR "SEC014"
+    IDS_WL_BACK_GATE_NOT_OPENED "WL0044"
+    IDS_WL_BACK_GATE_NOT_CLOSED "WL0045"
+    IDS_WL_FRONT_GATE_NOT_OPENED "WL0046"
+    IDS_WL_FRONT_GATE_NOT_CLOSED "WL0047"
+    IDS_WL_NOT_MATCHED_SIS_BARCODE "WL0048"
+    IDS_WL_Z_MOVE_ERR       "WL0049"
+    IDS_WL_OUTPUT_BC_NOT_MATCH "WL0050"
+    IDS_WL_NO_OUTPUT_BC_AND_NOT_MATCH "WL0051"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BT_RESET_BIN_SUMMARY_FILE "Reset bin summary file ?"
+    HMB_BT_OPTIMIZE_BIN_COUNT "Optimize bin count"
+    HMB_BL_RESET_MAG_BIN_NOT_CLEARED 
+                            "Failed to reset magazine! Bin not cleared!"
+    HMB_FAIL_TO_LOAD_BIN_SUMMARY_FILE "Fail to load bin summary file"
+    HMB_BT_LEARN_PAD_PITCH  "Learn Pad Pitch"
+    HMB_BT_MV_LEFT_SIDE_PAD_VET_GAP "Move to left side of vertical gap"
+    HMB_BT_MV_RIGHT_SIDE_PAD_VET_GAP "Move to right side of vertical gap"
+    HMB_BT_MV_UPPER_SIDE_PAD_HORZ_GAP "Move to upper side of horizontal gap"
+    HMB_BT_MV_LOWER_SIDE_PAD_HORZ_GAP "Move to lower side of horizontal gap"
+    HMB_BT_CHANGE_ASSOC_FILE "Change Assoicate File"
+    HMB_BT_CONF_CHANGE_ASSOC_FILE "Bin count is not cleared yet"
+    HMB_BT_INPUT_COUNT_SETUP_FILE "Input count setup file"
+    HMB_BT_INPUT_COUNT_SETUP_FILE_LAOD_COMPLETE 
+                            "Input count file load complete"
+    HMB_BT_LOAD_INPUT_COUNT_SETUP_FILE_FAIL "Load input count setup file fail"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WPR_GOOD_DIE_WITH_NORMAL_RECORD 
+                            "Warning! Good die found using normal die record"
+    HMB_INIT_PR_HIGH_LEVEL_INFO "Init PR High Level Info Fail"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WT_BURNIN_LOAD_MAP  "BurnIn Load Map"
+    HMB_WT_LOAD_MAP_FROM_C_DRIVE "Please load map from C:"
+    HMB_WT_WAFER_LOT_CHECK_FAIL 
+                            "Wafer lot check fail! Some wafers are not complete"
+    HMB_WAFER_LOT           "Wafer Lot"
+    HMB_WT_MAP_HEADER_PACKAGE_CHECK "Map header package file check"
+    HMB_WT_MAP_HEADER_PACKAGE_CHECK_FAIL "Map haeder package file check fail"
+    HMB_WT_COMPARE_DIE_COUNT_FAIL "Compare die count fail"
+    HMB_WT_TEACH_PROBER_OFFSET "Teach Prober Offset"
+    HMB_WT_FIND_DIE_IN_CAM_POS_FAIL 
+                            "Cannot find a die to align for table offset"
+    HMB_WT_LEARN_PROBE_LEVEL "Learn probe table level"
+    HMB_WT_MOVE_PROBE_TABLE "Please move probe table to point"
+    HMB_WT_LEARN_PROBE_LEVEL_COMPLETE "Learn probe level complete"
+    IDS_BPR_ISP_IS_NOT_IN_SAFE_POSITION "BPR0060"
+    HMB_WT_GEN_MAP          "Generate Probe Map"
+    HMB_WT_ARE_YOU_SURE_TO_GEN_MAP_FILE 
+                            "Are you sure to generate output map file?Current probe map will be cleared"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_CHECK_BC_LENGTH_FAIL "BL0088"
+    IDS_BL_CHECK_BC_PREFIX_FAIL "BL0089"
+    IDS_BL_BT1_FRAME_EXIST  "BL0090"
+    IDS_BL_BT2_FRAME_EXIST  "BL0091"
+    IDS_BL_FRMAE_EXIST_IN_BUFFER "BL0092"
+    IDS_BL_COVER_OPEN       "BL0093"
+    HMB_BL_NO_FRAME_ON_OUT_TABLE "BL0094"
+    HMB_BL_PUT_JAM_FRAME    "Bin gripper is jammed!  Please remove frame manually. (BL0095)"
+    IDS_BL_NOEMPTYFRAME_EMPTY_MGZN 
+                            "NO EMPTY frame! please refill EMPTY magazine."
+    IDS_BL_READ_BC_FAILURE  "BL0097"
+    IDS_BL_BACK_GATE_NOT_CLOSED "BL0098"
+    IDS_BL_CREATE_WIP_OUTPUT_FILE_FAIL "BL0099"
+    IDS_BL_CREATE_WIP_TMP_FILE_FAIL "BL0100"
+    IDS_BL_NOT_MATCHED_SIS_BARCODE "BL0101"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BL_MS90_PUSHER_NOT_SAFE "BL0102"
+    IDS_BL_Z_NOT_POWER_ON   "BL0103"
+    IDS_BL_Z_NOT_HOMED      "BL0104"
+    IDS_BL_Z_MOVE_ERR       "BL0105"
+    IDS_BL_BACK_GATE_NOT_OPENED "BL0106"
+    IDS_BL_FRONT_GATE_NOT_OPENED "BL0107"
+    IDS_BL_FRONT_GATE_NOT_CLOSED "BL0108"
+    IDS_BL_MOTOR_THETA_MISSING_STEP "BL0109"
+    IDS_BL_MOTOR_Z_MISSING_STEP "BL0110"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BH_ILC              "AL"
+    HMB_BH_ILC_INIT_FAIL    "Init fail"
+    HMB_BH_ILC_MOTION_TEST_INIT_FAIL 
+                            "Motion test init fail\n Please perform BA learnning"
+    HMB_BH_ILC_UPDATE_PROFILE_FAIL "Update profile fail"
+    HMB_BH_ILC_CONVERGE     "Learn complete"
+    HMB_BH_ILC_SAVE_RESULT_FAIL "Save result fail"
+    HMB_BH_ILC_AUTO_LEARN_FAIL "Auto learn fail"
+    HMB_ILC_MOVE_TEST_FAIL  "Move test fail"
+    HMB_BH_ILC_RESTART_UPDATE_FAIL "Restart update fail"
+    HMB_BH_ILC_AUTO_UPDATE_FAIL "Auto update fail"
+    HMB_BH_COVER_SENSOR     "Cover Sensor"
+    HMB_BH_ENABLE_COVER_SENSOR "Enable Cover Sensor?"
+    HMB_BH_PROBER_CONTACT_LEVEL_MOVE_TEST "Prober contact level move test"
+    HMB_BH_CHANGE_PROBE_PIN_CNT "Change Probe Pin Count"
+    HMB_BH_RESET_PROBE_PIN_CONF "Reset Change Probe Pin Count"
+    HMB_BH_CLEAN_PROBE_PIN_CNT "Clean Probe Pin Count"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_WL_RESET_ALL_MAGAZINE "Reset All Magazines?"
+END
+
+STRINGTABLE
+BEGIN
+    HMB_BT_UPDATE_INPUT_COUNT_FAIL "Update input count fail"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CTM_NICHIA_WARNING  "NC0001"
+    IDS_CTM_NICHIA_ERROR    "NC0002"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SEC_WL_UPLOADMAP_ERR "SEC005"
+    IDS_SEC_WL_DOWNLOADMAP_ERR "SEC006"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\MS896A.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

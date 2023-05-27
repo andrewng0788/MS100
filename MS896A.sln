@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ADDA8969-AC0B-4EB8-B0CA-FA37EDF675FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MS896A", "MS896A.vcxproj", "{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug (MS90)|Win32 = Debug (MS90)|Win32
+		Debug (MS90)|x64 = Debug (MS90)|x64
+		OFFLINE (MS90)|Win32 = OFFLINE (MS90)|Win32
+		OFFLINE (MS90)|x64 = OFFLINE (MS90)|x64
+		Release (MS90)|Win32 = Release (MS90)|Win32
+		Release (MS90)|x64 = Release (MS90)|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.Debug (MS90)|Win32.ActiveCfg = Debug (MS90)|Win32
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.Debug (MS90)|Win32.Build.0 = Debug (MS90)|Win32
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.Debug (MS90)|x64.ActiveCfg = Debug (MS90)|x64
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.Debug (MS90)|x64.Build.0 = Debug (MS90)|x64
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.OFFLINE (MS90)|Win32.ActiveCfg = OFFLINE (MS90)|Win32
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.OFFLINE (MS90)|Win32.Build.0 = OFFLINE (MS90)|Win32
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.OFFLINE (MS90)|x64.ActiveCfg = OFFLINE (MS90)|x64
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.OFFLINE (MS90)|x64.Build.0 = OFFLINE (MS90)|x64
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.Release (MS90)|Win32.ActiveCfg = Release (MS90)|x64
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.Release (MS90)|Win32.Build.0 = Release (MS90)|x64
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.Release (MS90)|x64.ActiveCfg = Release (MS90)|x64
+		{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}.Release (MS90)|x64.Build.0 = Release (MS90)|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

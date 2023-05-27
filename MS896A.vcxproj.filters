@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7edfd9da-1381-42eb-8d6f-a1c4b7bb2935}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BT">
+      <UniqueIdentifier>{16068c7b-7f8d-47ce-ae6a-3732b8bd7810}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WPR">
+      <UniqueIdentifier>{9eff25c1-0247-48ff-9624-ce67d18e5464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WL">
+      <UniqueIdentifier>{8c3dd5f1-132a-4cbe-9031-409d34c49b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SEC">
+      <UniqueIdentifier>{f2246f61-2ad0-4802-8a21-f8149ebb5bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BH">
+      <UniqueIdentifier>{22314a8a-e3d2-495a-aa0c-1efa30a1ad8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WT">
+      <UniqueIdentifier>{547a816d-3d59-4820-9bd0-adcc98cd2995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Comm">
+      <UniqueIdentifier>{5e786a2b-d201-4780-88bf-867d1dbec589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BL">
+      <UniqueIdentifier>{cacdb905-a971-4714-ae18-ae25f44be1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{fbc54a3b-3881-4311-ad9c-e1358a75c295}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="Prescan">
+      <UniqueIdentifier>{9f580bb0-f759-4249-86c0-38d5a98777b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c60044aa-2ef7-4a6d-8a7e-e5acc5569f96}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Header Files\BH">
+      <UniqueIdentifier>{e15a52fe-cf00-4e5f-8a04-9567d7d0ce79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BT">
+      <UniqueIdentifier>{0bd9dea3-bb1e-4af3-8f89-5767361b8f7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WT">
+      <UniqueIdentifier>{f352760c-a912-4e74-884c-1fdd8542bc4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BPR">
+      <UniqueIdentifier>{04c8a1ad-110e-4eee-8039-217758593642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WPR">
+      <UniqueIdentifier>{09231be7-aa14-4b45-bf8e-ee2c928db2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WL">
+      <UniqueIdentifier>{7b795100-f46a-4c62-a83d-430bfb1d55bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ST">
+      <UniqueIdentifier>{841f46ca-e995-4469-97f2-904dda4bfd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SEC">
+      <UniqueIdentifier>{69c886eb-4e07-4c5f-a9f7-90f5a3c3f466}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Comm">
+      <UniqueIdentifier>{cc6e8b61-68d7-4de2-8465-bb214fa295e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WaferMap">
+      <UniqueIdentifier>{eb12fa53-c5a3-4b25-96e2-28793b095cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BL">
+      <UniqueIdentifier>{022cfe73-3da6-45db-920e-5ccf5a92aa34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WaferMap">
+      <UniqueIdentifier>{27bfcff7-9221-4ea0-a3bb-462858efa59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BPR">
+      <UniqueIdentifier>{e07d09f4-50db-4285-8c09-b7ac987de14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PR">
+      <UniqueIdentifier>{eb918817-9d2d-40b4-b485-e63e0ad1ca8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ST">
+      <UniqueIdentifier>{ebb85180-3d3e-4cf8-b8bc-7242e190d13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\NVCLoader">
+      <UniqueIdentifier>{7a95cd4e-93f9-418e-a58b-d9ba1ec957d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\NVCLoader">
+      <UniqueIdentifier>{3c1bac5e-712d-444f-b328-8977826d20dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlarmCodeTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BondResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DevFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlushMessageThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HardwareDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HpMotorSensor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputCountSetupFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFileUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MESConnector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS896A.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS896ADoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS896AStn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS896AStn_Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS896AStn_Prd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS896AView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_Access.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_Command2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MachineStat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Motion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NichiaMgntSys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrCrossHairDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PreBondEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SemitekMgntSys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StrInputDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TakeTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsUsageRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WaferStat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_BinBlk.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_BinBlkMain.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_BinGradeData.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_BinSummaryFile.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Command.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Common.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_CycleState.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Event.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Log.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Move.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_PhyBlk.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_PhyBlkMain.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_Profile.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_ReAlignBinBlk.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_ReAlignBinBlk2.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_State.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_SubState.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BinTable.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_ChangeCollet.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_Command.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_Common.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_CycleState.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_Event.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_Log.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_LrnDie.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_SrchDie.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_State.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_SubState.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BondPr.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_5MZoomCmd.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_5MZoomScan.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_AdaptWafer.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_Command.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_Common.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_Common_Ejt.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_Contour.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_CycleState.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_Event.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_GallerySrchDie.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_GallerySrch_CP100.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_GrabShareImg.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_IM.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_Log.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_LrnDie.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_MapConstruction.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_OCRManualMode.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_ScanAlign.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_SrchDie.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_State.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_SubState.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_ZoomSensor.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WaferPr.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_AlignWafer.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_BLoadFrame.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_BarcodeScan.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_Command.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_Command_Autoline.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_Common.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_ContourEdge.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_CycleState.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_LoadFrame.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_LoadFrame2.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_LoadFrame_AutoLine.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_Move.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_State.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WaferLoader.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="ST_Command.cpp">
+      <Filter>Source Files\ST</Filter>
+    </ClCompile>
+    <ClCompile Include="ST_Common.cpp">
+      <Filter>Source Files\ST</Filter>
+    </ClCompile>
+    <ClCompile Include="ST_CycleState.cpp">
+      <Filter>Source Files\ST</Filter>
+    </ClCompile>
+    <ClCompile Include="ST_Event.cpp">
+      <Filter>Source Files\ST</Filter>
+    </ClCompile>
+    <ClCompile Include="ST_Thermal.cpp">
+      <Filter>Source Files\ST</Filter>
+    </ClCompile>
+    <ClCompile Include="Safety.cpp">
+      <Filter>Source Files\ST</Filter>
+    </ClCompile>
+    <ClCompile Include="SC_Command.cpp">
+      <Filter>Source Files\SEC</Filter>
+    </ClCompile>
+    <ClCompile Include="SC_Common.cpp">
+      <Filter>Source Files\SEC</Filter>
+    </ClCompile>
+    <ClCompile Include="SC_CycleState.cpp">
+      <Filter>Source Files\SEC</Filter>
+    </ClCompile>
+    <ClCompile Include="SC_ProcessProgram.cpp">
+      <Filter>Source Files\SEC</Filter>
+    </ClCompile>
+    <ClCompile Include="SG_Command.cpp">
+      <Filter>Source Files\SEC</Filter>
+    </ClCompile>
+    <ClCompile Include="SG_Command_Autoline.cpp">
+      <Filter>Source Files\SEC</Filter>
+    </ClCompile>
+    <ClCompile Include="SG_Command_EM.cpp">
+      <Filter>Source Files\SEC</Filter>
+    </ClCompile>
+    <ClCompile Include="SecsComm.cpp">
+      <Filter>Source Files\SEC</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_ChangeCollet.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_Command.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_Common.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_CycleState.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_CycleState_AP.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_CycleState_dbh.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_Event.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_ILC.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_Move.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_Move_EJT.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_MultiBondLevel.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_Profile.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_State.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_SubState.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_UBHCommon.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="BondHead.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="PB_MultiProbeLevel.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_1stDieFinder.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_AdvRegionOffset.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_AlignWafer.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_BlkFunc.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_BlkFunc2.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_BlkFunc2Cm.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_BlkFunc2MA.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_Command.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_Command2.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_Common.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_CycleState.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_CycleState_MS60.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_CycleState_Scan.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_Event.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_FinderFunc.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_Map.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_MapFunc.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_Move.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_NGPick.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_Profile.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_RegionPredication.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_ScnCheckAlign.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_State.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_StdAlignWafer.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_SubState.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_TempCtrl.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_TwoPhasesSort.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WaferTable.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="HostComm.cpp">
+      <Filter>Source Files\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_HostComm.cpp">
+      <Filter>Source Files\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="MS_SecComm.cpp">
+      <Filter>Source Files\Comm</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_BarCodeScan.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_Command.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_Command_Autoline.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_Common.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_CycleState.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_Event.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_LoadFrame.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_LoadFrame_AutoLine.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_Motor.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_Move.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_State.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_SubState.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_UpDnBuffer.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BinLoader.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="GallerySearchController.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="GallerySearchThread.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="LastScanPosition.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="PrescanInfo.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="PrescanUtility.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WAF_CPhysicalInformation.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_Prescan.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_PrescanAlign.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_PrescanMap.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_PrescanNGView.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_PrescanRealign.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_PrescanRegion.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_RescanSorting.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_ScanDEB.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_ScanPath.cpp">
+      <Filter>Prescan</Filter>
+    </ClCompile>
+    <ClCompile Include="BinGripperBuffer.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="PRSelect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_SIO.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_SIO.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="AmiDecode.cpp">
+      <Filter>Source Files\ST</Filter>
+    </ClCompile>
+    <ClCompile Include="BL_SecsGem.cpp">
+      <Filter>Source Files\BL</Filter>
+    </ClCompile>
+    <ClCompile Include="WL_SecsGem.cpp">
+      <Filter>Source Files\WL</Filter>
+    </ClCompile>
+    <ClCompile Include="WaferMap.cpp">
+      <Filter>Source Files\WaferMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\WaferMap</Filter>
+    </ClCompile>
+    <ClCompile Include="WaferMapSelectGrade.cpp">
+      <Filter>Source Files\WaferMap</Filter>
+    </ClCompile>
+    <ClCompile Include="PRFailureCaseLog.cpp">
+      <Filter>Source Files\PR</Filter>
+    </ClCompile>
+    <ClCompile Include="PrGeneral.cpp">
+      <Filter>Source Files\PR</Filter>
+    </ClCompile>
+    <ClCompile Include="PrZoomSensor.cpp">
+      <Filter>Source Files\PR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_ZoomSensor.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_AirFlowCompensation.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkDieRegion.cpp">
+      <Filter>Source Files\WaferMap</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_CleanCollet.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkDieRegionManager.cpp">
+      <Filter>Source Files\WaferMap</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_MarkDie.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="DieRegion.cpp">
+      <Filter>Source Files\WaferMap</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_SubRegion.cpp">
+      <Filter>Source Files\WaferMap</Filter>
+    </ClCompile>
+    <ClCompile Include="NGGrade.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="EjPinCleanRegion.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="WT_EjPinClean.cpp">
+      <Filter>Source Files\WT</Filter>
+    </ClCompile>
+    <ClCompile Include="BH_CycleState_MegaDa.cpp">
+      <Filter>Source Files\BH</Filter>
+    </ClCompile>
+    <ClCompile Include="WPR_SrchDie_HWTri.cpp">
+      <Filter>Source Files\WPR</Filter>
+    </ClCompile>
+    <ClCompile Include="BPR_SrchDie_HWTri.cpp">
+      <Filter>Source Files\BPR</Filter>
+    </ClCompile>
+    <ClCompile Include="NVCLoader.cpp">
+      <Filter>Source Files\NVCLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="NL_Common.cpp">
+      <Filter>Source Files\NVCLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="NL_CycleState.cpp">
+      <Filter>Source Files\NVCLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="NL_Command.cpp">
+      <Filter>Source Files\NVCLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="NL_Move.cpp">
+      <Filter>Source Files\NVCLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="NL_LoadFrame.cpp">
+      <Filter>Source Files\NVCLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_ErrorMapCmd.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_MatrixOffset.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="BT_MatrixOffsetXY.cpp">
+      <Filter>Source Files\BT</Filter>
+    </ClCompile>
+    <ClCompile Include="NL_MgznSetup.cpp">
+      <Filter>Source Files\NVCLoader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MS896A.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MS896A.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MS896ADoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MS896A.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GallerySearchController.h">
+      <Filter>Prescan</Filter>
+    </ClInclude>
+    <ClInclude Include="GallerySearchThread.h">
+      <Filter>Prescan</Filter>
+    </ClInclude>
+    <ClInclude Include="LastScanPosition.h">
+      <Filter>Prescan</Filter>
+    </ClInclude>
+    <ClInclude Include="PrescanConstant.h">
+      <Filter>Prescan</Filter>
+    </ClInclude>
+    <ClInclude Include="PrescanInfo.h">
+      <Filter>Prescan</Filter>
+    </ClInclude>
+    <ClInclude Include="PrescanUtility.h">
+      <Filter>Prescan</Filter>
+    </ClInclude>
+    <ClInclude Include="UWM.h">
+      <Filter>Prescan</Filter>
+    </ClInclude>
+    <ClInclude Include="WAF_CPhysicalInformation.h">
+      <Filter>Prescan</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmCodeTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AmiFileDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BondResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CycleState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DevFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlushMessageThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HardwareDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HpMotorSensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputCountSetupFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFileUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MESConnector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MS896A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MS896ADoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MS896AStn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MS896AView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MS896A_Constant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MS896a_NuMotion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MS_AccessConstant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineStat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Motion_Constant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NichiaMapHeaderConstant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NichiaMgntSys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrCrossHairDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PreBondEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SemitekMgntSys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StrInputDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TakeTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolsUsageRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaferStat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BH_Constant.h">
+      <Filter>Header Files\BH</Filter>
+    </ClInclude>
+    <ClInclude Include="BondHead.h">
+      <Filter>Header Files\BH</Filter>
+    </ClInclude>
+    <ClInclude Include="PB_MultiProbeLevel.h">
+      <Filter>Header Files\BH</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_BinBlk.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_BinBlkMain.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_BinGradeData.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_BinSummaryFile.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_CmdName.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_Constant.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_Log.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_PhyBlk.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_PhyBlkMain.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="BinTable.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+    <ClInclude Include="WT_1stDieFinder.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="WT_BlkFunc.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="WT_BlkFunc2.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="WT_CmdName.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="WT_Constant.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="WT_RegionPredication.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="WaferTable.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="WaferTable_Var.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="BPR_Log.h">
+      <Filter>Header Files\BPR</Filter>
+    </ClInclude>
+    <ClInclude Include="BondPr.h">
+      <Filter>Header Files\BPR</Filter>
+    </ClInclude>
+    <ClInclude Include="WPR_Log.h">
+      <Filter>Header Files\WPR</Filter>
+    </ClInclude>
+    <ClInclude Include="WaferPr.h">
+      <Filter>Header Files\WPR</Filter>
+    </ClInclude>
+    <ClInclude Include="WL_Constant.h">
+      <Filter>Header Files\WL</Filter>
+    </ClInclude>
+    <ClInclude Include="WaferLoader.h">
+      <Filter>Header Files\WL</Filter>
+    </ClInclude>
+    <ClInclude Include="Safety.h">
+      <Filter>Header Files\ST</Filter>
+    </ClInclude>
+    <ClInclude Include="SC_Constant.h">
+      <Filter>Header Files\SEC</Filter>
+    </ClInclude>
+    <ClInclude Include="SecsComm.h">
+      <Filter>Header Files\SEC</Filter>
+    </ClInclude>
+    <ClInclude Include="BL_Constant.h">
+      <Filter>Header Files\BL</Filter>
+    </ClInclude>
+    <ClInclude Include="BinLoader.h">
+      <Filter>Header Files\BL</Filter>
+    </ClInclude>
+    <ClInclude Include="HostComm.h">
+      <Filter>Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="MS_HostCommConstant.h">
+      <Filter>Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="MS_SecCommConstant.h">
+      <Filter>Header Files\Comm</Filter>
+    </ClInclude>
+    <ClInclude Include="BinGripperBuffer.h">
+      <Filter>Header Files\BL</Filter>
+    </ClInclude>
+    <ClInclude Include="PRSelect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BL_Struct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WaferMap.h">
+      <Filter>Header Files\WaferMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.H">
+      <Filter>Header Files\WaferMap</Filter>
+    </ClInclude>
+    <ClInclude Include="PRFailureCaseLog.h">
+      <Filter>Source Files\PR</Filter>
+    </ClInclude>
+    <ClInclude Include="PrGeneral.h">
+      <Filter>Source Files\PR</Filter>
+    </ClInclude>
+    <ClInclude Include="PrZoomSensor.h">
+      <Filter>Source Files\PR</Filter>
+    </ClInclude>
+    <ClInclude Include="BH_AirFlowCompensation.h">
+      <Filter>Header Files\BH</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkDieRegion.h">
+      <Filter>Header Files\WaferMap</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkDieRegionManager.h">
+      <Filter>Header Files\WaferMap</Filter>
+    </ClInclude>
+    <ClInclude Include="WaferSrch_Var.h">
+      <Filter>Header Files\WT</Filter>
+    </ClInclude>
+    <ClInclude Include="DieRegion.h">
+      <Filter>Header Files\WaferMap</Filter>
+    </ClInclude>
+    <ClInclude Include="WT_SubRegion.h">
+      <Filter>Header Files\WaferMap</Filter>
+    </ClInclude>
+    <ClInclude Include="NGGrade.h">
+      <Filter>Header Files\BPR</Filter>
+    </ClInclude>
+    <ClInclude Include="NVCLoader.h">
+      <Filter>Header Files\NVCLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="NL_Constant.h">
+      <Filter>Header Files\NVCLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="BT_MatrixOffset.h">
+      <Filter>Header Files\BT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1095 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug (MS90)|Win32">
+      <Configuration>Debug (MS90)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug (MS90)|x64">
+      <Configuration>Debug (MS90)</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug (NuMotion)|Win32">
+      <Configuration>Debug (NuMotion)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug (NuMotion)|x64">
+      <Configuration>Debug (NuMotion)</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="OFFLINE (MS90)|Win32">
+      <Configuration>OFFLINE (MS90)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="OFFLINE (MS90)|x64">
+      <Configuration>OFFLINE (MS90)</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (MS90)|Win32">
+      <Configuration>Release (MS90)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (MS90)|x64">
+      <Configuration>Release (MS90)</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (NuMotion)|Win32">
+      <Configuration>Release (NuMotion)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release (NuMotion)|x64">
+      <Configuration>Release (NuMotion)</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release OCR MS90|Win32">
+      <Configuration>Release OCR MS90</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release OCR MS90|x64">
+      <Configuration>Release OCR MS90</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0AC80868-52B5-4231-B40A-B1DF1C2A4B0E}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|Win32'">Release (NuMotion)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|x64'">Release (NuMotion)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|Win32'">Release (NuMotion)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|x64'">Release (NuMotion)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|Win32'">Debug (NuMotion)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|x64'">Debug (NuMotion)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|Win32'">Debug (NuMotion)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|x64'">Debug (NuMotion)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|Win32'">Release (MS90)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|x64'">Release (MS90)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|Win32'">Release (MS90)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|x64'">Release (MS90)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|Win32'">Debug (MS90)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|Win32'">Debug (MS90)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|x64'">Debug (MS90)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|x64'">Offline (MS90)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|Win32'">Debug (MS90)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|Win32'">Debug (MS90)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|x64'">Debug (MS90)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|x64'">Offline (MS90)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|x64'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|Win32'">Release OCR MS90\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|x64'">Release OCR MS90\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|Win32'">Release OCR MS90\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|x64'">Release OCR MS90\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|x64'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\public5\MCL V3.03;..\public5\MHC V7.02q100;..\Public5\secsgem;..\Public5\SPC V1-14-00\F4R5\Release\Development;..\public5\HMI_CC V2.45.13 R5\release;..\public5\Frame IV Release 5;..\public5\HiPEC C V7.02q100;..\public5\Eagle_DB Ver3_56_25;..\public5\OutputFile V1.10;..\public5\NVRAM V1.02;..\public5\WSDecode;..\public5\Dymo V1.00;..\public5\EquipTime V1.11;..\public5\matrix;..\public5\EncryptDll;..\public5\DieEncBase_v442;..\public5\GmpLib-v1.02 j 1.00A;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control;..\Public5\TSC Printer;..\public5\Label Printer V4-00-01;..\Public5\KM;..\Public5\TesterAPIClient;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NU_MOTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;WinXpSI.lib;Eagle_NT_Itf.lib;winsi.lib;MarkHipec.lib;HipecCDLL.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;NVRAM.lib;HmiComponents.lib;WSDecDll.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;Winmm.lib;Iphlpapi.lib;matrix32.lib;EncryptDll.lib;DieEncBase.lib;GmpLib.lib;ASMProtectionAPI.lib;libhasp_windows_demo.lib;mxml.lib;CtrlLib.lib;LiTECWin32.lib;GMode.lib;TSCLib.lib;MyTSCPrinter.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;TesterInterface.lib;ntkmdll.lib;WaferMapCustomControl.lib;WaferDisplay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\public5\MCL V3.03\Release;..\public5\MHC V7.02q100\Release;..\Public5\secsgem\Release;..\Public5\SPC V1-14-00\F4R5\Release\Development;..\Public5\HMI_CC V2.45.13 R5\Release;..\public5\Frame IV Release 5\Release;..\public5\HiPEC C V7.02q100\Release;..\public5\Eagle_DB Ver3_56_25\release;..\public5\OutputFile V1.10\Release;..\public5\NVRAM V1.02\Release;..\public5\WSDecode\Release;..\public5\Dymo V1.00\Release;..\public5\EquipTime V1.11\Release;..\public5\matrix;..\public5\EncryptDll\Release;..\public5\DieEncBase_v442\Release;..\public5\GmpLib-v1.02 j 1.00A\Release;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control\release;..\Public5\TSC Printer\Release;..\public5\Label Printer V4-00-01\Release;..\Public5\KM\Release;..\Public5\TesterAPIClient\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\public5\MCL V3.03;..\public5\MHC V7.02q100;..\Public5\secsgem;..\Public5\SPC V1-14-00\F4R5\Release\Development;..\public5\HMI_CC V2.45.13 R5\release;..\public5\Frame IV Release 5;..\public5\HiPEC C V7.02q100;..\public5\Eagle_DB Ver3_56_25;..\public5\OutputFile V1.10;..\public5\NVRAM V1.02;..\public5\WSDecode;..\public5\Dymo V1.00;..\public5\EquipTime V1.11;..\public5\matrix;..\public5\EncryptDll;..\public5\DieEncBase_v442;..\public5\GmpLib-v1.02 j 1.00A;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control;..\Public5\TSC Printer;..\public5\Label Printer V4-00-01;..\Public5\KM;..\Public5\TesterAPIClient;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NU_MOTION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;WinXpSI.lib;Eagle_NT_Itf.lib;winsi.lib;MarkHipec.lib;HipecCDLL.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;NVRAM.lib;HmiComponents.lib;WSDecDll.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;Winmm.lib;Iphlpapi.lib;matrix32.lib;EncryptDll.lib;DieEncBase.lib;GmpLib.lib;ASMProtectionAPI.lib;libhasp_windows_demo.lib;mxml.lib;CtrlLib.lib;LiTECWin32.lib;GMode.lib;TSCLib.lib;MyTSCPrinter.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;TesterInterface.lib;ntkmdll.lib;WaferMapCustomControl.lib;WaferDisplay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\public5\MCL V3.03\Release;..\public5\MHC V7.02q100\Release;..\Public5\secsgem\Release;..\Public5\SPC V1-14-00\F4R5\Release\Development;..\Public5\HMI_CC V2.45.13 R5\Release;..\public5\Frame IV Release 5\Release;..\public5\HiPEC C V7.02q100\Release;..\public5\Eagle_DB Ver3_56_25\release;..\public5\OutputFile V1.10\Release;..\public5\NVRAM V1.02\Release;..\public5\WSDecode\Release;..\public5\Dymo V1.00\Release;..\public5\EquipTime V1.11\Release;..\public5\matrix;..\public5\EncryptDll\Release;..\public5\DieEncBase_v442\Release;..\public5\GmpLib-v1.02 j 1.00A\Release;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control\release;..\Public5\TSC Printer\Release;..\public5\Label Printer V4-00-01\Release;..\Public5\KM\Release;..\Public5\TesterAPIClient\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\public5\MCL V3.03;..\public5\MHC V7.02q100;..\Public5\secsgem;..\Public5\HMI_CC V2.22.12 R5\Debug\Development;..\public5\Frame IV Release 5;..\public5\HiPEC C V7.02q100;..\public5\Eagle_DB Ver3_56_25;..\public5\OutputFile V1.10;..\public5\NVRAM V1.02;..\public5\WSDecode;..\public5\Dymo V1.00;..\public5\EquipTime V1.11;..\public5\matrix;..\public5\EncryptDll;..\public5\DieEncBase_v442;..\Public5\SPC V1-13-18\F4R5\Debug\Development;..\public5\GmpLib-v1.02 j 1.00;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control;..\Public5\TSC Printer;..\public5\Label Printer V4-00-01;..\Public5\KM;..\Public5\TesterAPIClient;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_PRESCAN;NU_MOTION;MS_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;WinXpSI.lib;Eagle_NT_Itf.lib;winsi.lib;MarkHipec.lib;HipecCDLL.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;NVRAM.lib;HmiComponents.lib;WSDecDll.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;Winmm.lib;Iphlpapi.lib;EncryptDll.lib;DieEncBase.lib;GmpLib.lib;CtrlLib.lib;LiTECWin32.lib;GMode.lib;TSCLib.lib;MyTSCPrinter.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;TesterInterface.lib;ntkmdll.lib;WaferMapCustomControl.lib;WaferDisplay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\public5\MCL V3.03\Debug;..\public5\MHC V7.02q100\Debug;..\Public5\secsgem\Debug;..\Public5\HMI_CC V2.22.12 R5\Debug\Development;..\public5\Frame IV Release 5\Debug;..\public5\HiPEC C V7.02q100\Debug;..\public5\Eagle_DB Ver3_56_25\debug;..\public5\OutputFile V1.10\Debug;..\public5\NVRAM V1.02\Debug;..\public5\WSDecode\Debug;..\public5\Dymo V1.00\Debug;..\public5\EquipTime V1.11\Debug;..\public5\EncryptDll\Debug;..\public5\DieEncBase_v442\Debug;..\Public5\SPC V1-13-18\F4R5\Debug\Development;..\public5\GmpLib-v1.02 j 1.00\Debug;..\Public5\Temperature Control\Debug;..\Public5\TSC Printer\Debug;..\public5\Label Printer V4-00-01\Debug;..\Public5\KM\Debug;..\Public5\TesterAPIClient\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MapSorter.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <TargetMachine>NotSet</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\public5\MCL V3.03;..\public5\MHC V7.02q100;..\Public5\secsgem;..\Public5\HMI_CC V2.22.12 R5\Debug\Development;..\public5\Frame IV Release 5;..\public5\HiPEC C V7.02q100;..\public5\Eagle_DB Ver3_56_25;..\public5\OutputFile V1.10;..\public5\NVRAM V1.02;..\public5\WSDecode;..\public5\Dymo V1.00;..\public5\EquipTime V1.11;..\public5\matrix;..\public5\EncryptDll;..\public5\DieEncBase_v442;..\Public5\SPC V1-13-18\F4R5\Debug\Development;..\public5\GmpLib-v1.02 j 1.00;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control;..\Public5\TSC Printer;..\public5\Label Printer V4-00-01;..\Public5\KM;..\Public5\TesterAPIClient;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_PRESCAN;NU_MOTION;MS_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;WinXpSI.lib;Eagle_NT_Itf.lib;winsi.lib;MarkHipec.lib;HipecCDLL.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;NVRAM.lib;HmiComponents.lib;WSDecDll.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;Winmm.lib;Iphlpapi.lib;EncryptDll.lib;DieEncBase.lib;GmpLib.lib;CtrlLib.lib;LiTECWin32.lib;GMode.lib;TSCLib.lib;MyTSCPrinter.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;TesterInterface.lib;ntkmdll.lib;WaferMapCustomControl.lib;WaferDisplay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\public5\MCL V3.03\Debug;..\public5\MHC V7.02q100\Debug;..\Public5\secsgem\Debug;..\Public5\HMI_CC V2.22.12 R5\Debug\Development;..\public5\Frame IV Release 5\Debug;..\public5\HiPEC C V7.02q100\Debug;..\public5\Eagle_DB Ver3_56_25\debug;..\public5\OutputFile V1.10\Debug;..\public5\NVRAM V1.02\Debug;..\public5\WSDecode\Debug;..\public5\Dymo V1.00\Debug;..\public5\EquipTime V1.11\Debug;..\public5\EncryptDll\Debug;..\public5\DieEncBase_v442\Debug;..\Public5\SPC V1-13-18\F4R5\Debug\Development;..\public5\GmpLib-v1.02 j 1.00\Debug;..\Public5\Temperature Control\Debug;..\Public5\TSC Printer\Debug;..\public5\Label Printer V4-00-01\Debug;..\Public5\KM\Debug;..\Public5\TesterAPIClient\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MapSorter.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\public_64\MHC V1-00-01;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Release\Development;..\Public_64\WM V2-45-22\VS2010_64\F4R5\Release\Development;..\public_64\Release_FRAME64_V4_06_12;..\Public_64\64bit vision 1122;..\public_64\OutputFile V1.00;..\public_64\EquipTime V1.10;..\public_64\GmpLib-v1.05 0 0.00;..\Public_64\Label V5.00.00;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NU_MOTION;VS_5MCAM;NU_MOTION_MS60;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;Eagle_NT_Itf.lib;winsi.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;HmiComponents.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;Winmm.lib;Iphlpapi.lib;GmpLib.lib;CtrlLib.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;WaferMapCustomControl.lib;WaferDisplay.lib;OfflineHipec.lib;MarkHipec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\public_64\MHC V1-00-01\Release_VS2010_64;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Release\Development;..\Public_64\WM V2-45-22\VS2010_64\F4R5\Release\Development;..\public_64\Release_FRAME64_V4_06_12\Release_VS2010_64;..\Public_64\64bit vision 1122\x64\release;..\public_64\OutputFile V1.00\Release;..\public_64\EquipTime V1.10\Release;..\public_64\GmpLib-v1.05 0 0.00\Release;..\Public_64\Label V5.00.00\Release_VS2010_64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MapSorter.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\public_64\MHC V1-00-01;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Release\Development;..\Public_64\WM V2-56-33\F4R5\Release\Development;..\Public_64\Asmgem_V4-11-00;..\public_64\Release_FRAME64_V4_06_12;..\Public_64\64visionV3.69.08;..\public_64\OutputFile V1.00;..\public_64\EquipTime V1.15;..\public_64\GmpLib-x64 1.06 a 1.00;..\Public_64\Label V5.00.00;..\Public_64\Agmp;..\Public_64\EqpStatistics;..\Public_64\UserTime;..\Public_64\MathUtility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NU_MOTION;VS_5MCAM;NU_MOTION_MS60;MS50_64BIT;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;Eagle_NT_Itf.lib;winsi.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;HmiComponents.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;EqpStatistics.lib;CUserTime.lib;Winmm.lib;Iphlpapi.lib;GmpLib.lib;AgmpCtrlLib.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;WaferMapCustomControl.lib;WaferDisplay.lib;OfflineHipec.lib;MarkHipec.lib;QueryDatabase.lib;MathUtility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\public_64\MHC V1-00-01\Release_VS2010_64;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Release\Development;..\Public_64\WM V2-56-33\F4R5\Release\Development;..\Public_64\Asmgem_V4-11-00\Release_VS2010_64;..\public_64\Release_FRAME64_V4_06_12\Release_VS2010_64;..\Public_64\64visionV3.69.08\x64\release;..\public_64\OutputFile V1.00\Release;..\public_64\EquipTime V1.15\Release;..\public_64\GmpLib-x64 1.06 a 1.00\Release;..\Public_64\Label V5.00.00\Release_VS2010_64;..\Public_64\Agmp\Release;..\Public_64\EqpStatistics\Release;..\Public_64\UserTime\Release;..\Public_64\MathUtility\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MapSorter.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\Public_64\MHC V1-00-01;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Debug\Development;..\Public_64\WM V2-45-22\VS2010_64\F4R5\Debug\Development;..\Public_64\Release_FRAME64_V4_06_12;..\Public_64\64vision polly0201;..\Public_64\OutputFile V1.00;..\Public_64\EquipTime V1.12;..\Public_64\GmpLib-x64 1.05 q 0.27;..\Public_64\Label V5.00.00;..\Public_64\Agmp;..\Public_64\UserTime;..\Public_64\EqpStatistics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_PRESCAN;MULTISRCH_PRESCAN;NU_MOTION;VS_5MCAM;MS_DEBUG;NU_MOTION_MS60;MS50_64BIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;Eagle_NT_Itf.lib;winsi.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;HmiComponents.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;EqpStatistics.lib;CUserTime.lib;Winmm.lib;Iphlpapi.lib;GmpLib.lib;AgmpCtrlLib.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;WaferMapCustomControl.lib;WaferDisplay.lib;OfflineHipec.lib;MarkHipec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\Public_64\MHC V1-00-01\Debug_VS2010_64;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Debug\Development;..\Public_64\WM V2-45-22\VS2010_64\F4R5\Debug\Development;..\Public_64\Release_FRAME64_V4_06_12\Debug_VS2010_64;..\Public_64\64vision polly0201\x64\debug;..\Public_64\EquipTime V1.12\Debug;..\Public_64\OutputFile V1.00\Debug;..\Public_64\GmpLib-x64 1.05 q 0.27\Debug;..\Public_64\Label V5.00.00\Debug_VS2010_64;..\Public_64\Agmp\Debug;..\Public_64\UserTime\Debug;..\Public_64\EqpStatistics\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MapSorter.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <TargetMachine>NotSet</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\Public_64\MHC V1-00-01;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Debug\Development;..\Public_64\WM V2-45-22\VS2010_64\F4R5\Debug\Development;..\Public_64\Release_FRAME64_V4_06_12;..\Public_64\64vision polly0201;..\Public_64\OutputFile V1.00;..\Public_64\EquipTime V1.12;..\Public_64\GmpLib-x64 1.05 q 0.27;..\Public_64\Label V5.00.00;..\Public_64\Agmp;..\Public_64\UserTime;..\Public_64\EqpStatistics;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_PRESCAN;MULTISRCH_PRESCAN;NU_MOTION;VS_5MCAM;MS_DEBUG;NU_MOTION_MS60;MS50_64BIT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;Eagle_NT_Itf.lib;winsi.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;HmiComponents.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;EqpStatistics.lib;CUserTime.lib;Winmm.lib;Iphlpapi.lib;GmpLib.lib;AgmpCtrlLib.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;WaferMapCustomControl.lib;WaferDisplay.lib;OfflineHipec.lib;MarkHipec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\Public_64\MHC V1-00-01\Debug_VS2010_64;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Debug\Development;..\Public_64\WM V2-45-22\VS2010_64\F4R5\Debug\Development;..\Public_64\Release_FRAME64_V4_06_12\Debug_VS2010_64;..\Public_64\64vision polly0201\x64\debug;..\Public_64\EquipTime V1.12\Debug;..\Public_64\OutputFile V1.00\Debug;..\Public_64\GmpLib-x64 1.05 q 0.27\Debug;..\Public_64\Label V5.00.00\Debug_VS2010_64;..\Public_64\Agmp\Debug;..\Public_64\UserTime\Debug;..\Public_64\EqpStatistics\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MapSorter.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <TargetMachine>NotSet</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\Public_64\MHC V1-00-01;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Debug\Development;..\Public_64\WM V2-58-18\F4R5\Debug\Development;..\Public_64\Asmgem_V4-11-00;..\Public_64\Release_FRAME64_V4_06_12;..\Public_64\64visionV3.69.12;..\Public_64\OutputFile V1.00;..\Public_64\EquipTime V1.15;..\Public_64\GmpLib-x64 1.06 a 1.00;..\Public_64\Label V5.00.00;..\Public_64\Agmp1;..\Public_64\EqpStatistics;..\Public_64\UserTime;..\Public_64\MathUtility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_PRESCAN;MULTISRCH_PRESCAN;NU_MOTION;VS_5MCAM;MS_DEBUG;NU_MOTION_MS60;MS50_64BIT;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;Eagle_NT_Itf.lib;winsi.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;HmiComponents.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;EqpStatistics.lib;CUserTime.lib;Winmm.lib;Iphlpapi.lib;GmpLib.lib;AgmpCtrlLib.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;WaferMapCustomControl.lib;WaferDisplay.lib;OfflineHipec.lib;MarkHipec.lib;MathUtility.lib;sfmmatrix.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\Public_64\MHC V1-00-01\Debug_VS2010_64;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Debug\Development;..\Public_64\WM V2-58-18\F4R5\Debug\Development;..\Public_64\Asmgem_V4-11-00\Debug_VS2010_64;..\Public_64\Release_FRAME64_V4_06_12\Debug_VS2010_64;..\Public_64\64visionV3.69.12\x64\debug;..\Public_64\OutputFile V1.00\Debug;..\Public_64\EquipTime V1.15\Debug;..\Public_64\GmpLib-x64 1.06 a 1.00\Debug;..\Public_64\Label V5.00.00\Debug_VS2010_64;..\Public_64\Agmp1\Debug;..\Public_64\EqpStatistics\Debug;..\Public_64\UserTime\Debug;..\Public_64\MathUtility\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MapSorter.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\Public_64\MHC V1-00-01;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Debug\Development;..\Public_64\WM V2-56-33\F4R5\Debug\Development;..\Public_64\Asmgem_V4-11-00;..\Public_64\Release_FRAME64_V4_06_12;..\Public_64\64visionV3.69.08;..\Public_64\OutputFile V1.00;..\Public_64\EquipTime V1.15;..\Public_64\GmpLib-x64 1.06 a 1.00;..\Public_64\Label V5.00.00;..\Public_64\Agmp1;..\Public_64\EqpStatistics;..\Public_64\UserTime;..\Public_64\MathUtility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;HAVE_PRESCAN;MULTISRCH_PRESCAN;NU_MOTION;VS_5MCAM;MS_DEBUG;NU_MOTION_MS60;MS50_64BIT;_CRT_SECURE_NO_WARNINGS;OFFLINE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;Eagle_NT_Itf.lib;winsi.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;HmiComponents.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;EqpStatistics.lib;CUserTime.lib;Winmm.lib;Iphlpapi.lib;GmpLib.lib;AgmpCtrlLib.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;WaferMapCustomControl.lib;WaferDisplay.lib;OfflineHipec.lib;MarkHipec.lib;MathUtility.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\Public_64\MHC V1-00-01\Debug_VS2010_64;..\Public_64\SPC V1-14-04\VS2010_64\F4R5\Debug\Development;..\Public_64\WM V2-56-33\F4R5\Debug\Development;..\Public_64\Asmgem_V4-11-00\Debug_VS2010_64;..\Public_64\Release_FRAME64_V4_06_12\Debug_VS2010_64;..\Public_64\64vision polly0201\x64\debug;..\Public_64\OutputFile V1.00\Debug;..\Public_64\EquipTime V1.15\Debug;..\Public_64\GmpLib-x64 1.06 a 1.00\Debug;..\Public_64\Label V5.00.00\Debug_VS2010_64;..\Public_64\Agmp1\Debug;..\Public_64\EqpStatistics\Debug;..\Public_64\UserTime\Debug;..\Public_64\MathUtility\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)MapSorter.pdb</ProgramDatabaseFile>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\public5\MCL V3.03;..\public5\MHC V7.02q100;..\Public5\secsgem;..\Public5\SPC V1-14-00\F4R5\Release\Development;..\public5\HMI_CC V2.44.04 R5\release;..\public5\Frame IV Release 5;..\public5\HiPEC C V7.02q100;..\public5\Eagle_DB Ver3_56_25;..\public5\OutputFile V1.10;..\public5\NVRAM V1.02;..\public5\WSDecode;..\public5\Dymo V1.00;..\public5\EquipTime V1.11;..\public5\matrix;..\public5\EncryptDll;..\public5\DieEncBase_v442;..\public5\GmpLib-v1.04 x 0.17A;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control;..\Public5\TSC Printer;..\public5\Label Printer V4-00-01;..\Public5\KM;..\Public5\TesterAPIClient;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NU_MOTION;NU_MOTION_MS60;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;WinXpSI.lib;Eagle_NT_Itf.lib;winsi.lib;MarkHipec.lib;HipecCDLL.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;NVRAM.lib;HmiComponents.lib;WSDecDll.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;Winmm.lib;Iphlpapi.lib;matrix32.lib;EncryptDll.lib;DieEncBase.lib;GmpLib.lib;ASMProtectionAPI.lib;libhasp_windows_demo.lib;mxml.lib;CtrlLib.lib;LiTECWin32.lib;GMode.lib;TSCLib.lib;MyTSCPrinter.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;TesterInterface.lib;ntkmdll.lib;WaferMapCustomControl.lib;WaferDisplay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\public5\MCL V3.03\Release;..\public5\MHC V7.02q100\Release;..\Public5\secsgem\Release;..\Public5\SPC V1-14-00\F4R5\Release\Development;..\Public5\HMI_CC V2.44.04 R5\Release;..\public5\Frame IV Release 5\Release;..\public5\HiPEC C V7.02q100\Release;..\public5\Eagle_DB Ver3_56_25\release;..\public5\OutputFile V1.10\Release;..\public5\NVRAM V1.02\Release;..\public5\WSDecode\Release;..\public5\Dymo V1.00\Release;..\public5\EquipTime V1.11\Release;..\public5\matrix;..\public5\EncryptDll\Release;..\public5\DieEncBase_v442\Release;..\public5\GmpLib-v1.04 x 0.17A\Release;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control\release;..\Public5\TSC Printer\Release;..\public5\Label Printer V4-00-01\Release;..\Public5\KM\Release;..\Public5\TesterAPIClient\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <OmitFramePointers>false</OmitFramePointers>
+      <AdditionalIncludeDirectories>..\public5\MCL V3.03;..\public5\MHC V7.02q100;..\Public5\secsgem;..\Public5\SPC V1-14-00\F4R5\Release\Development;..\public5\HMI_CC V2.44.04 R5\release;..\public5\Frame IV Release 5;..\public5\HiPEC C V7.02q100;..\public5\Eagle_DB Ver3_56_25;..\public5\OutputFile V1.10;..\public5\NVRAM V1.02;..\public5\WSDecode;..\public5\Dymo V1.00;..\public5\EquipTime V1.11;..\public5\matrix;..\public5\EncryptDll;..\public5\DieEncBase_v442;..\public5\GmpLib-v1.04 x 0.17A;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control;..\Public5\TSC Printer;..\public5\Label Printer V4-00-01;..\Public5\KM;..\Public5\TesterAPIClient;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;NU_MOTION;NU_MOTION_MS60;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>false</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>AsmException.lib;IpcCore.lib;MotionControl.lib;MotionArchitecture.lib;MarkDataBlock.lib;Mark.lib;SfmFile.lib;WaferMapInterface.lib;MapMemory.lib;MapConverter.lib;DieSelector.lib;WinXpSI.lib;Eagle_NT_Itf.lib;winsi.lib;MarkHipec.lib;HipecCDLL.lib;SPCCommon.lib;SPCDataAccess.lib;GenerateDatabase.lib;QueryDatabase.lib;NVRAM.lib;HmiComponents.lib;WSDecDll.lib;SerialCom.lib;GenerateWaferDatabase.lib;QueryWaferDatabase.lib;LabelPrinter.lib;OutputFileFactory.lib;WaferEndFileFactory.lib;AsmGem.lib;SecsCore.lib;EquipTime.lib;Winmm.lib;Iphlpapi.lib;matrix32.lib;EncryptDll.lib;DieEncBase.lib;GmpLib.lib;ASMProtectionAPI.lib;libhasp_windows_demo.lib;mxml.lib;CtrlLib.lib;LiTECWin32.lib;GMode.lib;TSCLib.lib;MyTSCPrinter.lib;TSCPrinter.lib;LabelPrinterMFCDLL.lib;TesterInterface.lib;ntkmdll.lib;WaferMapCustomControl.lib;WaferDisplay.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)MapSorter.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>..\public5\MCL V3.03\Release;..\public5\MHC V7.02q100\Release;..\Public5\secsgem\Release;..\Public5\SPC V1-14-00\F4R5\Release\Development;..\Public5\HMI_CC V2.44.04 R5\Release;..\public5\Frame IV Release 5\Release;..\public5\HiPEC C V7.02q100\Release;..\public5\Eagle_DB Ver3_56_25\release;..\public5\OutputFile V1.10\Release;..\public5\NVRAM V1.02\Release;..\public5\WSDecode\Release;..\public5\Dymo V1.00\Release;..\public5\EquipTime V1.11\Release;..\public5\matrix;..\public5\EncryptDll\Release;..\public5\DieEncBase_v442\Release;..\public5\GmpLib-v1.04 x 0.17A\Release;..\Public5\SW Protection V011;..\Public5\mxml-2.6;..\Public5\Temperature Control\release;..\Public5\TSC Printer\Release;..\public5\Label Printer V4-00-01\Release;..\Public5\KM\Release;..\Public5\TesterAPIClient\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>10000000</StackReserveSize>
+      <StackCommitSize>0</StackCommitSize>
+      <OptimizeReferences>false</OptimizeReferences>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AlarmCodeTable.cpp" />
+    <ClCompile Include="AmiDecode.cpp" />
+    <ClCompile Include="BH_AirFlowCompensation.cpp" />
+    <ClCompile Include="BH_CleanCollet.cpp" />
+    <ClCompile Include="BH_CycleState_MegaDa.cpp" />
+    <ClCompile Include="BH_SIO.cpp" />
+    <ClCompile Include="BinGripperBuffer.cpp" />
+    <ClCompile Include="BL_SecsGem.cpp" />
+    <ClCompile Include="BL_SIO.cpp" />
+    <ClCompile Include="BondResult.cpp" />
+    <ClCompile Include="BPR_SrchDie_HWTri.cpp" />
+    <ClCompile Include="BPR_ZoomSensor.cpp" />
+    <ClCompile Include="BT_ErrorMapCmd.cpp" />
+    <ClCompile Include="BT_MatrixOffset.cpp" />
+    <ClCompile Include="BT_MatrixOffsetXY.cpp" />
+    <ClCompile Include="CycleState.cpp" />
+    <ClCompile Include="DevFile.cpp" />
+    <ClCompile Include="DieRegion.cpp" />
+    <ClCompile Include="EjPinCleanRegion.cpp" />
+    <ClCompile Include="FileUtil.cpp" />
+    <ClCompile Include="FlushMessageThread.cpp" />
+    <ClCompile Include="HardwareDlg.cpp" />
+    <ClCompile Include="HpMotorSensor.cpp" />
+    <ClCompile Include="InputCountSetupFile.cpp" />
+    <ClCompile Include="LogFileUtil.cpp" />
+    <ClCompile Include="MarkDieRegion.cpp" />
+    <ClCompile Include="MarkDieRegionManager.cpp" />
+    <ClCompile Include="MESConnector.cpp" />
+    <ClCompile Include="MS896A.cpp" />
+    <ClCompile Include="MS896ADoc.cpp" />
+    <ClCompile Include="MS896AStn.cpp" />
+    <ClCompile Include="MS896AStn_Map.cpp" />
+    <ClCompile Include="MS896AStn_Prd.cpp" />
+    <ClCompile Include="MS896AView.cpp" />
+    <ClCompile Include="MS_Access.cpp" />
+    <ClCompile Include="MS_Command.cpp" />
+    <ClCompile Include="MS_Command2.cpp" />
+    <ClCompile Include="MS_Common.cpp" />
+    <ClCompile Include="MS_State.cpp" />
+    <ClCompile Include="MachineStat.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Motion.cpp" />
+    <ClCompile Include="NGGrade.cpp" />
+    <ClCompile Include="NichiaMgntSys.cpp" />
+    <ClCompile Include="NL_Command.cpp" />
+    <ClCompile Include="NL_Common.cpp" />
+    <ClCompile Include="NL_CycleState.cpp" />
+    <ClCompile Include="NL_LoadFrame.cpp" />
+    <ClCompile Include="NL_MgznSetup.cpp" />
+    <ClCompile Include="NL_Move.cpp" />
+    <ClCompile Include="NVCLoader.cpp" />
+    <ClCompile Include="OptionDlg.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="PrCrossHairDlg.cpp" />
+    <ClCompile Include="PreBondEvent.cpp" />
+    <ClCompile Include="PRFailureCaseLog.cpp" />
+    <ClCompile Include="PrGeneral.cpp" />
+    <ClCompile Include="PRSelect.cpp" />
+    <ClCompile Include="PrZoomSensor.cpp" />
+    <ClCompile Include="SemitekMgntSys.cpp" />
+    <ClCompile Include="StrInputDlg.cpp" />
+    <ClCompile Include="TakeTime.cpp" />
+    <ClCompile Include="ToolsUsageRecord.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="WaferMap.cpp" />
+    <ClCompile Include="WaferMapSelectGrade.cpp" />
+    <ClCompile Include="WaferStat.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug (MS90)|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='OFFLINE (MS90)|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug (NuMotion)|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release (MS90)|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release (NuMotion)|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release OCR MS90|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="BT_BinBlk.cpp" />
+    <ClCompile Include="BT_BinBlkMain.cpp" />
+    <ClCompile Include="BT_BinGradeData.cpp" />
+    <ClCompile Include="BT_BinSummaryFile.cpp" />
+    <ClCompile Include="BT_Command.cpp" />
+    <ClCompile Include="BT_Common.cpp" />
+    <ClCompile Include="BT_CycleState.cpp" />
+    <ClCompile Include="BT_Event.cpp" />
+    <ClCompile Include="BT_Log.cpp" />
+    <ClCompile Include="BT_Move.cpp" />
+    <ClCompile Include="BT_PhyBlk.cpp" />
+    <ClCompile Include="BT_PhyBlkMain.cpp" />
+    <ClCompile Include="BT_Profile.cpp" />
+    <ClCompile Include="BT_ReAlignBinBlk.cpp" />
+    <ClCompile Include="BT_ReAlignBinBlk2.cpp" />
+    <ClCompile Include="BT_State.cpp" />
+    <ClCompile Include="BT_SubState.cpp" />
+    <ClCompile Include="BinTable.cpp" />
+    <ClCompile Include="BPR_ChangeCollet.cpp" />
+    <ClCompile Include="BPR_Command.cpp" />
+    <ClCompile Include="BPR_Common.cpp" />
+    <ClCompile Include="BPR_CycleState.cpp" />
+    <ClCompile Include="BPR_Event.cpp" />
+    <ClCompile Include="BPR_Log.cpp" />
+    <ClCompile Include="BPR_LrnDie.cpp" />
+    <ClCompile Include="BPR_SrchDie.cpp" />
+    <ClCompile Include="BPR_State.cpp" />
+    <ClCompile Include="BPR_SubState.cpp" />
+    <ClCompile Include="BondPr.cpp" />
+    <ClCompile Include="WL_SecsGem.cpp" />
+    <ClCompile Include="WPR_5MZoomCmd.cpp" />
+    <ClCompile Include="WPR_5MZoomScan.cpp" />
+    <ClCompile Include="WPR_AdaptWafer.cpp" />
+    <ClCompile Include="WPR_Command.cpp" />
+    <ClCompile Include="WPR_Common.cpp" />
+    <ClCompile Include="WPR_Common_Ejt.cpp" />
+    <ClCompile Include="WPR_Contour.cpp" />
+    <ClCompile Include="WPR_CycleState.cpp" />
+    <ClCompile Include="WPR_Event.cpp" />
+    <ClCompile Include="WPR_GallerySrchDie.cpp" />
+    <ClCompile Include="WPR_GallerySrch_CP100.cpp" />
+    <ClCompile Include="WPR_GrabShareImg.cpp" />
+    <ClCompile Include="WPR_IM.cpp" />
+    <ClCompile Include="WPR_Log.cpp" />
+    <ClCompile Include="WPR_LrnDie.cpp" />
+    <ClCompile Include="WPR_MapConstruction.cpp" />
+    <ClCompile Include="WPR_OCRManualMode.cpp" />
+    <ClCompile Include="WPR_ScanAlign.cpp" />
+    <ClCompile Include="WPR_SrchDie.cpp" />
+    <ClCompile Include="WPR_SrchDie_HWTri.cpp" />
+    <ClCompile Include="WPR_State.cpp" />
+    <ClCompile Include="WPR_SubState.cpp" />
+    <ClCompile Include="WPR_ZoomSensor.cpp" />
+    <ClCompile Include="WaferPr.cpp" />
+    <ClCompile Include="WL_AlignWafer.cpp" />
+    <ClCompile Include="WL_BLoadFrame.cpp" />
+    <ClCompile Include="WL_BarcodeScan.cpp" />
+    <ClCompile Include="WL_Command.cpp" />
+    <ClCompile Include="WL_Command_Autoline.cpp" />
+    <ClCompile Include="WL_Common.cpp" />
+    <ClCompile Include="WL_ContourEdge.cpp" />
+    <ClCompile Include="WL_CycleState.cpp" />
+    <ClCompile Include="WL_LoadFrame.cpp" />
+    <ClCompile Include="WL_LoadFrame2.cpp" />
+    <ClCompile Include="WL_LoadFrame_AutoLine.cpp" />
+    <ClCompile Include="WL_Move.cpp" />
+    <ClCompile Include="WL_State.cpp" />
+    <ClCompile Include="WaferLoader.cpp" />
+    <ClCompile Include="ST_Command.cpp" />
+    <ClCompile Include="ST_Common.cpp" />
+    <ClCompile Include="ST_CycleState.cpp" />
+    <ClCompile Include="ST_Event.cpp" />
+    <ClCompile Include="ST_Thermal.cpp" />
+    <ClCompile Include="Safety.cpp" />
+    <ClCompile Include="SC_Command.cpp" />
+    <ClCompile Include="SC_Common.cpp" />
+    <ClCompile Include="SC_CycleState.cpp" />
+    <ClCompile Include="SC_ProcessProgram.cpp" />
+    <ClCompile Include="SG_Command.cpp" />
+    <ClCompile Include="SG_Command_Autoline.cpp" />
+    <ClCompile Include="SG_Command_EM.cpp" />
+    <ClCompile Include="SecsComm.cpp" />
+    <ClCompile Include="BL_BarCodeScan.cpp" />
+    <ClCompile Include="BL_Command.cpp" />
+    <ClCompile Include="BL_Command_Autoline.cpp" />
+    <ClCompile Include="BL_Common.cpp" />
+    <ClCompile Include="BL_CycleState.cpp" />
+    <ClCompile Include="BL_Event.cpp" />
+    <ClCompile Include="BL_LoadFrame.cpp" />
+    <ClCompile Include="BL_LoadFrame_AutoLine.cpp" />
+    <ClCompile Include="BL_Motor.cpp" />
+    <ClCompile Include="BL_Move.cpp" />
+    <ClCompile Include="BL_State.cpp" />
+    <ClCompile Include="BL_SubState.cpp" />
+    <ClCompile Include="BL_UpDnBuffer.cpp" />
+    <ClCompile Include="BinLoader.cpp" />
+    <ClCompile Include="BH_ChangeCollet.cpp" />
+    <ClCompile Include="BH_Command.cpp" />
+    <ClCompile Include="BH_Common.cpp" />
+    <ClCompile Include="BH_CycleState.cpp" />
+    <ClCompile Include="BH_CycleState_AP.cpp" />
+    <ClCompile Include="BH_CycleState_dbh.cpp" />
+    <ClCompile Include="BH_Event.cpp" />
+    <ClCompile Include="BH_ILC.cpp" />
+    <ClCompile Include="BH_Move.cpp" />
+    <ClCompile Include="BH_Move_EJT.cpp" />
+    <ClCompile Include="BH_MultiBondLevel.cpp" />
+    <ClCompile Include="BH_Profile.cpp" />
+    <ClCompile Include="BH_State.cpp" />
+    <ClCompile Include="BH_SubState.cpp" />
+    <ClCompile Include="BH_UBHCommon.cpp" />
+    <ClCompile Include="BondHead.cpp" />
+    <ClCompile Include="PB_MultiProbeLevel.cpp" />
+    <ClCompile Include="WT_1stDieFinder.cpp" />
+    <ClCompile Include="WT_AdvRegionOffset.cpp" />
+    <ClCompile Include="WT_AlignWafer.cpp" />
+    <ClCompile Include="WT_BlkFunc.cpp" />
+    <ClCompile Include="WT_BlkFunc2.cpp" />
+    <ClCompile Include="WT_BlkFunc2Cm.cpp" />
+    <ClCompile Include="WT_BlkFunc2MA.cpp" />
+    <ClCompile Include="WT_Command.cpp" />
+    <ClCompile Include="WT_Command2.cpp" />
+    <ClCompile Include="WT_Common.cpp" />
+    <ClCompile Include="WT_CycleState.cpp" />
+    <ClCompile Include="WT_CycleState_MS60.cpp" />
+    <ClCompile Include="WT_CycleState_Scan.cpp" />
+    <ClCompile Include="WT_EjPinClean.cpp" />
+    <ClCompile Include="WT_Event.cpp" />
+    <ClCompile Include="WT_FinderFunc.cpp" />
+    <ClCompile Include="WT_Map.cpp" />
+    <ClCompile Include="WT_MapFunc.cpp" />
+    <ClCompile Include="WT_MarkDie.cpp" />
+    <ClCompile Include="WT_Move.cpp" />
+    <ClCompile Include="WT_NGPick.cpp" />
+    <ClCompile Include="WT_Profile.cpp" />
+    <ClCompile Include="WT_RegionPredication.cpp" />
+    <ClCompile Include="WT_ScnCheckAlign.cpp" />
+    <ClCompile Include="WT_State.cpp" />
+    <ClCompile Include="WT_StdAlignWafer.cpp" />
+    <ClCompile Include="WT_SubRegion.cpp" />
+    <ClCompile Include="WT_SubState.cpp" />
+    <ClCompile Include="WT_TempCtrl.cpp" />
+    <ClCompile Include="WT_TwoPhasesSort.cpp" />
+    <ClCompile Include="WaferTable.cpp" />
+    <ClCompile Include="HostComm.cpp" />
+    <ClCompile Include="MS_HostComm.cpp" />
+    <ClCompile Include="MS_SecComm.cpp" />
+    <ClCompile Include="GallerySearchController.cpp" />
+    <ClCompile Include="GallerySearchThread.cpp" />
+    <ClCompile Include="LastScanPosition.cpp" />
+    <ClCompile Include="PrescanInfo.cpp" />
+    <ClCompile Include="PrescanUtility.cpp" />
+    <ClCompile Include="WAF_CPhysicalInformation.cpp" />
+    <ClCompile Include="WT_Prescan.cpp" />
+    <ClCompile Include="WT_PrescanAlign.cpp" />
+    <ClCompile Include="WT_PrescanMap.cpp" />
+    <ClCompile Include="WT_PrescanNGView.cpp" />
+    <ClCompile Include="WT_PrescanRealign.cpp" />
+    <ClCompile Include="WT_PrescanRegion.cpp" />
+    <ClCompile Include="WT_RescanSorting.cpp" />
+    <ClCompile Include="WT_ScanDEB.cpp" />
+    <ClCompile Include="WT_ScanPath.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MS896A.ico" />
+    <None Include="res\MS896A.rc2" />
+    <None Include="res\MS896ADoc.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MS896A.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BH_AirFlowCompensation.h" />
+    <ClInclude Include="BinGripperBuffer.h" />
+    <ClInclude Include="BL_Struct.h" />
+    <ClInclude Include="BT_MatrixOffset.h" />
+    <ClInclude Include="DieRegion.h" />
+    <ClInclude Include="GallerySearchController.h" />
+    <ClInclude Include="GallerySearchThread.h" />
+    <ClInclude Include="LastScanPosition.h" />
+    <ClInclude Include="MarkDieRegion.h" />
+    <ClInclude Include="MarkDieRegionManager.h" />
+    <ClInclude Include="NGGrade.h" />
+    <ClInclude Include="NL_Constant.h" />
+    <ClInclude Include="NVCLoader.h" />
+    <ClInclude Include="PrescanConstant.h" />
+    <ClInclude Include="PrescanInfo.h" />
+    <ClInclude Include="PrescanUtility.h" />
+    <ClInclude Include="PRFailureCaseLog.h" />
+    <ClInclude Include="PrGeneral.h" />
+    <ClInclude Include="PRSelect.h" />
+    <ClInclude Include="PrZoomSensor.h" />
+    <ClInclude Include="Utility.H" />
+    <ClInclude Include="UWM.h" />
+    <ClInclude Include="WaferMap.h" />
+    <ClInclude Include="WaferSrch_Var.h" />
+    <ClInclude Include="WAF_CPhysicalInformation.h" />
+    <ClInclude Include="AlarmCodeTable.h" />
+    <ClInclude Include="AmiFileDecode.h" />
+    <ClInclude Include="BondResult.h" />
+    <ClInclude Include="CycleState.h" />
+    <ClInclude Include="DevFile.h" />
+    <ClInclude Include="FileUtil.h" />
+    <ClInclude Include="FlushMessageThread.h" />
+    <ClInclude Include="HardwareDlg.h" />
+    <ClInclude Include="HpMotorSensor.h" />
+    <ClInclude Include="InputCountSetupFile.h" />
+    <ClInclude Include="LogFileUtil.h" />
+    <ClInclude Include="MESConnector.h" />
+    <ClInclude Include="MS896A.h" />
+    <ClInclude Include="MS896ADoc.h" />
+    <ClInclude Include="MS896AStn.h" />
+    <ClInclude Include="MS896AView.h" />
+    <ClInclude Include="MS896A_Constant.h" />
+    <ClInclude Include="MS896a_NuMotion.h" />
+    <ClInclude Include="MS_AccessConstant.h" />
+    <ClInclude Include="MachineStat.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Motion_Constant.h" />
+    <ClInclude Include="NichiaMapHeaderConstant.h" />
+    <ClInclude Include="NichiaMgntSys.h" />
+    <ClInclude Include="OptionDlg.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="PrCrossHairDlg.h" />
+    <ClInclude Include="PreBondEvent.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SemitekMgntSys.h" />
+    <ClInclude Include="StrInputDlg.h" />
+    <ClInclude Include="TakeTime.h" />
+    <ClInclude Include="ToolsUsageRecord.h" />
+    <ClInclude Include="WaferStat.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="BH_Constant.h" />
+    <ClInclude Include="BondHead.h" />
+    <ClInclude Include="PB_MultiProbeLevel.h" />
+    <ClInclude Include="BT_BinBlk.h" />
+    <ClInclude Include="BT_BinBlkMain.h" />
+    <ClInclude Include="BT_BinGradeData.h" />
+    <ClInclude Include="BT_BinSummaryFile.h" />
+    <ClInclude Include="BT_CmdName.h" />
+    <ClInclude Include="BT_Constant.h" />
+    <ClInclude Include="BT_Log.h" />
+    <ClInclude Include="BT_PhyBlk.h" />
+    <ClInclude Include="BT_PhyBlkMain.h" />
+    <ClInclude Include="BinTable.h" />
+    <ClInclude Include="WT_1stDieFinder.h" />
+    <ClInclude Include="WT_BlkFunc.h" />
+    <ClInclude Include="WT_BlkFunc2.h" />
+    <ClInclude Include="WT_CmdName.h" />
+    <ClInclude Include="WT_Constant.h" />
+    <ClInclude Include="WT_RegionPredication.h" />
+    <ClInclude Include="WT_SubRegion.h" />
+    <ClInclude Include="WaferTable.h" />
+    <ClInclude Include="WaferTable_Var.h" />
+    <ClInclude Include="BPR_Log.h" />
+    <ClInclude Include="BondPr.h" />
+    <ClInclude Include="WPR_Log.h" />
+    <ClInclude Include="WaferPr.h" />
+    <ClInclude Include="WL_Constant.h" />
+    <ClInclude Include="WaferLoader.h" />
+    <ClInclude Include="Safety.h" />
+    <ClInclude Include="SC_Constant.h" />
+    <ClInclude Include="SecsComm.h" />
+    <ClInclude Include="BL_Constant.h" />
+    <ClInclude Include="BinLoader.h" />
+    <ClInclude Include="HostComm.h" />
+    <ClInclude Include="MS_HostCommConstant.h" />
+    <ClInclude Include="MS_SecCommConstant.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MS896A.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
